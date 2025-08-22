@@ -145,7 +145,6 @@ def fetch_mails_in_date(allowed_subjects):
         for msg in sorted(msgs, key=lambda x: x.date):
             mail_data = {
                 "id": msg.id,
-                "thread_id": thread_id,
                 "from": msg.sender,
                 "to": msg.recipient,
                 "subject": msg.subject,
