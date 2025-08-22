@@ -29,7 +29,7 @@ downloaded_ids = set()
 def load_allowed_subjects(excel_path="allowed_subjects.xlsx", sheet_name=None):
     """
     Đọc danh sách subject từ file Excel.
-    Sẽ tìm cột có tên 'subject' (không phân biệt hoa thường).
+    Sẽ tìm cột có tên 'subject'.
     """
     if not os.path.exists(excel_path):
         logging.error(f"Không tìm thấy file {excel_path}")
@@ -79,7 +79,7 @@ def _save_file(target_dir, filename, file_data):
 
 
 def download_attachments_parent(service, user_id, msg_id, target_dir):
-    """Lấy tất cả tệp đính kèm (kể cả inline) của 1 email."""
+    """Lấy tất cả tệp đính kèm của 1 email."""
     try:
         message = service.users().messages().get(userId=user_id, id=msg_id).execute()
         payload = message.get("payload", {})
@@ -113,7 +113,7 @@ def download_attachments_parent(service, user_id, msg_id, target_dir):
 
 def fetch_mails_in_date(allowed_subjects):
     query_params = {
-        # "after": "2025/08/08",
+        # "after": "2025/08/08", # có thể thêm giá trị này để xác định lấy mail từ khoảng thời gian nào. Nếu ko thì sẽ lấy tất cả các mail -> time sẽ lâu.
         "before": "2025/08/22",
     }
     query = construct_query(query_params)
@@ -130,7 +130,7 @@ def fetch_mails_in_date(allowed_subjects):
         if msg.id in downloaded_ids:
             continue
 
-        # Bỏ qua nếu subject không nằm trong danh sách cho phép
+        # Bỏ qua nếu subject ko thuộc 
         if msg.subject not in allowed_subjects:
             logging.info(f"Bỏ qua mail không hợp lệ: {msg.subject}")
             continue
@@ -181,8 +181,7 @@ def fetch_mails_in_date(allowed_subjects):
 
 
 if __name__ == "__main__":
-    subjects = load_allowed_subjects("allowed_subjects.xlsx")  # Excel file
-    print(subjects)
+    subjects = load_allowed_subjects("allowed_subjects.xlsx") # Thay tên file excel chứa các giá trị subject
     if not subjects:
         print("Không có ALLOWED_SUBJECTS nào, thoát.")
     else:
