@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+# Ignore sensitive JSON files
+client_secret.json
+gmail_token.json
+
+.vscode

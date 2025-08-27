@@ -1,0 +1,162 @@
+services:
+  # -----------------
+  # Ticket main API
+  # -----------------
+  ticket-service:
+    image: ${TICKET_IMAGE}:${TICKET_VERSION}
+    container_name: ticket-service
+    restart: always
+    ports:
+      - ${TICKET_PORT}:8000
+    environment:
+      - TICKET_HOST=0.0.0.0
+      - TICKET_ALLOWED_ORIGINS=["*"]
+      - TICKET_PORT=${TICKET_PORT}
+
+      # OpenSearch
+      - TICKET_OPENSEARCH_URL=http://ticket-opensearch:9200
+      - TICKET_OPENSEARCH_USER=${TICKET_OS_USERNAME}
+      - TICKET_OPENSEARCH_PASSWORD=${TICKET_OS_PASSWORD}
+
+      # RabbitMQ
+      - TICKET_RABBITMQ_URL=amqp://ticket-rabbitmq:5672
+      - TICKET_RABBITMQ_USER=${TICKET_RABBITMQ_USER}
+      - TICKET_RABBITMQ_PASSWORD=${TICKET_RABBITMQ_PASSWORD}
+
+      # OpenAI / Models
+      - TICKET_OPENAI_API_URL=${TICKET_OPENAI_API_URL}
+      - TICKET_OPENAI_API_KEY=${TICKET_OPENAI_API_KEY}
+      - TICKET_MODEL_LLM_ID=${TICKET_MODEL_LLM_ID}
+      - TICKET_MODEL_EMBEDDING_ID=${TICKET_MODEL_EMBEDDING_ID}
+
+    depends_on:
+      ticket-opensearch:
+        condition: service_healthy
+      ticket-rabbitmq:
+        condition: service_healthy
+      ticket-minio:
+        condition: service_healthy
+    networks:
+      - ticket_network
+
+  # -----------------
+  # OpenSearch
+  # -----------------
+  ticket-opensearch:
+    image: opensearchproject/opensearch:${TICKET_OS_VERSION}
+    container_name: ticket-opensearch
+    restart: always
+    ports:
+      - ${TICKET_OS_PORT}:9200
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=${TICKET_OS_PASSWORD}
+      - TZ=${TIMEZONE}
+    volumes:
+      - ticket_opensearch_data:/usr/share/opensearch/data
+    mem_limit: ${MEM_LIMIT}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -u admin:${TICKET_OS_PASSWORD} http://localhost:9200/_cluster/health",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+    networks:
+      - ticket_network
+
+  # -----------------
+  # MinIO
+  # -----------------
+  ticket-minio:
+    image: ${DOCKER_HUB}/minio/minio:${TICKET_MINIO_VERSION}
+    container_name: ticket-minio
+    command: server --console-address ":9001" /data
+    restart: always
+    ports:
+      - ${TICKET_MINIO_PORT}:9000
+      - ${TICKET_MINIO_CONSOLE_PORT}:9001
+    environment:
+      - MINIO_ROOT_USER=${TICKET_MINIO_USER}
+      - MINIO_ROOT_PASSWORD=${TICKET_MINIO_PASSWORD}
+      - TZ=${TIMEZONE}
+    volumes:
+      - ticket_minio_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    networks:
+      - ticket_network
+
+  # -----------------
+  # RabbitMQ
+  # -----------------
+  ticket-rabbitmq:
+    image: ${DOCKER_HUB}/rabbitmq:${TICKET_RABBITMQ_VERSION}
+    container_name: ticket-rabbitmq
+    restart: always
+    hostname: "rabbitmq"
+    ports:
+      - ${TICKET_RABBITMQ_PORT}:5672
+      - ${TICKET_RABBITMQ_MANAGEMENT_PORT}:15672
+    environment:
+      - RABBITMQ_DEFAULT_USER=${TICKET_RABBITMQ_USER}
+      - RABBITMQ_DEFAULT_PASS=${TICKET_RABBITMQ_PASSWORD}
+    volumes:
+      - ./configs/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+    networks:
+      - ticket_network
+
+  # -----------------
+  # Workflows (example: download email)
+  # -----------------
+  ticket-workflows-download-email:
+    image: ${TICKET_WORKFLOWS_IMAGE}:${TICKET_WORKFLOWS_VERSION}
+    container_name: ticket-workflows-download-email
+    command: dramatiq --processes 1 workflows_download_email.flows
+    restart: always
+    environment:
+      - WORKFLOWS_RABBITMQ_URL=amqp://ticket-rabbitmq:5672
+      - WORKFLOWS_RABBITMQ_USER=${TICKET_RABBITMQ_USER}
+      - WORKFLOWS_RABBITMQ_PASSWORD=${TICKET_RABBITMQ_PASSWORD}
+      - WORKFLOWS_OPENSEARCH_URL=http://ticket-opensearch:9200
+      - WORKFLOWS_OPENSEARCH_USER=admin
+      - WORKFLOWS_OPENSEARCH_PASSWORD=${TICKET_OS_PASSWORD}
+      - WORKFLOWS_S3_STORAGE_URL=http://ticket-minio:9000
+      - WORKFLOWS_S3_STORAGE_REGION=ignore-for-minio
+      - WORKFLOWS_S3_STORAGE_USER=${TICKET_MINIO_USER}
+      - WORKFLOWS_S3_STORAGE_PASSWORD=${TICKET_MINIO_PASSWORD}
+      - WORKFLOWS_S3_STORAGE_BUCKET=${TICKET_MINIO_BUCKET}
+    depends_on:
+      ticket-opensearch:
+        condition: service_healthy
+      ticket-rabbitmq:
+        condition: service_healthy
+      ticket-minio:
+        condition: service_healthy
+    networks:
+      - ticket_network
+
+# -----------------
+# Networks & Volumes
+# -----------------
+networks:
+  ticket_network:
+
+volumes:
+  ticket_opensearch_data:
+  ticket_minio_data:
