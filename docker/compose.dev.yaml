@@ -61,14 +61,10 @@ services:
         soft: -1
         hard: -1
     healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          "curl -u admin:${TICKET_OS_PASSWORD} http://localhost:9200/_cluster/health",
-        ]
+      test: ["CMD-SHELL", "curl -k https://localhost:9200 || exit 1"]
       interval: 30s
       timeout: 10s
-      retries: 10
+      retries: 5
     networks:
       - ticket_network
 
