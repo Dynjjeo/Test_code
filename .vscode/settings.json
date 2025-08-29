@@ -27,5 +27,11 @@
   "mypy-type-checker.importStrategy": "fromEnvironment",
   "mypy-type-checker.preferDaemon": true,
   "prettier.printWidth": 90,
-  "prettier.proseWrap": "always"
+  "prettier.proseWrap": "always",
+  "python.analysis.extraPaths": [
+    "./packages",
+    "./libs/logger/src",
+    "./libs/logger/src",
+    "./libs/openai_api_client/src"
+  ]
 }

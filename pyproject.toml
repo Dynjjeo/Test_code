@@ -14,7 +14,9 @@ dependencies = [
     "google-auth-oauthlib>=1.2.2",
     "ipykernel>=6.30.1",
     "llama-cpp-python>=0.3.16",
+    "llama-index>=0.13.3",
     "numpy>=2.2.6",
     "openpyxl>=3.1.5",
+    "opensearch-py>=3.0.0",
     "simplegmail>=4.1.1",
 ]

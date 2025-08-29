@@ -2,13 +2,10 @@ from __future__ import annotations
 
 from functools import cached_property
 from pathlib import Path
-from typing import TYPE_CHECKING, Annotated
+from typing import Annotated
 
 from pydantic import AnyUrl, Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
-if TYPE_CHECKING:
-    from workflows.qa.contanst import ChatbotApiRoutes
 
 # === Singleton config ===
 _config: WorkflowsBaseConfig | None = None
@@ -52,10 +49,10 @@ class WorkflowsBaseConfig(BaseSettings):
         password = self.rabbitmq_password.get_secret_value()
         return f"amqp://{user}:{password}@{host}:{port}"
 
-    # == Elasticsearch ==
-    elastic_url: AnyUrl
-    elastic_user: Annotated[str, Field(min_length=3)]
-    elastic_password: Annotated[SecretStr, Field(min_length=8)]
+    # == opensearch ==
+    open_url: AnyUrl
+    open_user: Annotated[str, Field(min_length=3)]
+    open_password: Annotated[SecretStr, Field(min_length=8)]
 
     # == Chunking config ==
     chunk_size: Annotated[int, Field(gt=0)] = 300
@@ -81,6 +78,8 @@ class WorkflowsBaseConfig(BaseSettings):
     after_mail: Annotated[str, Field(min_length=1)]
     before_mail: Annotated[str, Field(min_length=1)]
     tabel_mail: Path
+    col_name: Annotated[str, Field(min_length=1)]
+    sheet_name: Annotated[str, Field(min_length=1)]
 
     @cached_property
     def model_tokenizer_dir(self) -> Path:
@@ -97,6 +96,3 @@ class WorkflowsBaseConfig(BaseSettings):
     @cached_property
     def minio_ollama_path(self) -> str:
         return self.cache_dir / self.model_llm_id
-
-    def route(self, path: ChatbotApiRoutes) -> str:
-        return self.chatbot_api_url.unicode_string().rstrip("/") + "/" + path.value
