@@ -4,9 +4,9 @@ from typing import TYPE_CHECKING
 
 import dramatiq
 from dramatiq.brokers.rabbitmq import RabbitmqBroker
-from openai_api_client.embedding import EmbeddingModel
 from opensearchpy import OpenSearch
 
+from libs.openai_api_client.src.openai_api_client.embedding import EmbeddingModel
 from libs.vectordb.src.vectordb.opensearch import os_service
 from workflows.config import get_config
 

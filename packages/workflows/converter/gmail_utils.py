@@ -11,12 +11,8 @@ from google_auth_oauthlib.flow import InstalledAppFlow  # noqa: E402
 from googleapiclient.discovery import build  # noqa: E402
 from simplegmail.query import construct_query
 
-# Lấy thư mục gốc của project (Test_code)
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-# Thêm thư mục packages (nơi chứa workflows)
-PACKAGES_DIR = os.path.join(ROOT_DIR, "libs")
-from libs.vectordb.src.vectordb.opensearch import os_service  # noqa: E402
-from workflows.config import get_config  # noqa: E402
+from libs.vectordb.src.vectordb.opensearch import os_service
+from workflows.config import get_config
 
 # Import docling để đọc tệp đính kèm
 try:

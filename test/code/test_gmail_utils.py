@@ -1,11 +1,18 @@
 import os
 import sys
 
-# Lấy thư mục gốc của project (Test_code)
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-# Thêm thư mục packages (nơi chứa workflows)
-PACKAGES_DIR = os.path.join(ROOT_DIR, "packages")
-sys.path.insert(0, PACKAGES_DIR)
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+
+# Lấy thư mục gốc project (Test_code)
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+
+# Thêm cả packages và libs vào sys.path
+sys.path.insert(0, os.path.join(ROOT_DIR, "packages"))
+sys.path.insert(0, os.path.join(ROOT_DIR, "libs"))
+
 
 from workflows.config import get_config  # noqa: E402
 from workflows.converter.gmail_utils import (  # noqa: E402
