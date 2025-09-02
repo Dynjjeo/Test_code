@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openai-api-client"
+version = "0.1.0"
+description = "OpenAI-compatible API client."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [{ name = "AvePoint", email = "avepoint@avepoint.com" }]
+dependencies = [
+  # workspace packages
+  "logger",
+  # 3rd parties
+  "pydantic>=2.10.6",
+  "openai>=1.64.0",
+]
+
+[tool.uv.sources]
+logger = { workspace = true }

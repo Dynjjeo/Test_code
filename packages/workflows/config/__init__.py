@@ -30,7 +30,7 @@ class WorkflowsBaseConfig(BaseSettings):
     )
 
     # == API endpoints ==
-    chatbot_api_url: AnyUrl
+    ticket_api_url: AnyUrl
     dotnet_api_url: AnyUrl
 
     # == Cache folder ==
@@ -77,7 +77,7 @@ class WorkflowsBaseConfig(BaseSettings):
     ## == Mail ==
     after_mail: Annotated[str, Field(min_length=1)]
     before_mail: Annotated[str, Field(min_length=1)]
-    tabel_mail: Path
+    table_mail: Path
     col_name: Annotated[str, Field(min_length=1)]
     sheet_name: Annotated[str, Field(min_length=1)]
 

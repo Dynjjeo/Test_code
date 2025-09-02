@@ -1,0 +1,3735 @@
+{
+    "id": "4c111703dee03a187611b5a18db9d33126d6b3a4b1a9b86142e36e1d25545b7f",
+    "pdf_path": "libs/ocr2text/src/ocr2text/assets/img_input/example_image.png",
+    "file_hash": "4eacd1f90a690fe06e4b2ab920098741c60e287ec9d861b8aa451196a497adfa",
+    "pages": [
+        {
+            "id": "012a3e301b9bc049c0babef2fb8d1f38307c612f3999d6e5a40e28c70e86b2de",
+            "lines": [
+                {
+                    "id": "df6e616cbb596826dafd8204e6198b73811e51e4742495f22a5b8fb3d7229ce8",
+                    "text": "First Last",
+                    "bbox": [
+                        233.0,
+                        147.0,
+                        684.0,
+                        224.0
+                    ],
+                    "words": [
+                        {
+                            "id": "6a7c74aeefeb508f314f74ef4c52721a79ed0c864e7185d1db52a00909efff7e",
+                            "text": "First",
+                            "bbox": [
+                                233.0,
+                                147.0,
+                                447.0,
+                                224.0
+                            ]
+                        },
+                        {
+                            "id": "d926c59ee81dd6639805dec3c9eaf26146dc9a42fbf7e36e2d2ff813106bb060",
+                            "text": "Last",
+                            "bbox": [
+                                484.0,
+                                156.0,
+                                684.0,
+                                224.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "17aa17c23b1ded77ee2dd4076f732ea4e2b41af29312aa8b2e9517b69c5b10fa",
+                    "text": "Blockchain Developer",
+                    "bbox": [
+                        230.0,
+                        275.0,
+                        781.0,
+                        331.0
+                    ],
+                    "words": [
+                        {
+                            "id": "5ed7daa80f5fddb221e01afc532bf869d96872475bde861f339e251d9a94327a",
+                            "text": "Blockchain",
+                            "bbox": [
+                                230.0,
+                                275.0,
+                                505.0,
+                                320.0
+                            ]
+                        },
+                        {
+                            "id": "026b61c0351f8bc16e4f227366c627555632457e4e36c00e349852ef43a02590",
+                            "text": "Developer",
+                            "bbox": [
+                                528.0,
+                                275.0,
+                                781.0,
+                                331.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "a7c17dbcfc1b201c0252463082a339f65b45cca5db7ff1cef124cb7821e143da",
+                    "text": "Burlington, Vermont + +1-234-456-789 + professionalemail@resumeworded.com * linkedin.com/in/username",
+                    "bbox": [
+                        228.0,
+                        351.0,
+                        2070.0,
+                        388.0
+                    ],
+                    "words": [
+                        {
+                            "id": "a693bfaafc9f11a80c552f84ab8a71ebe8dfe48cad758ec3a37c9d62d8078144",
+                            "text": "Burlington,",
+                            "bbox": [
+                                228.0,
+                                352.0,
+                                402.0,
+                                388.0
+                            ]
+                        },
+                        {
+                            "id": "89ebc11807385560674bdbaa728a90609ae7e14ddce10aa6bc0fe4a6b7ee6bf2",
+                            "text": "Vermont",
+                            "bbox": [
+                                413.0,
+                                353.0,
+                                554.0,
+                                380.0
+                            ]
+                        },
+                        {
+                            "id": "59ec62b14c75b5ba9318415819432746c09109e7cd02c45b3dd23bbaf8f02944",
+                            "text": "+",
+                            "bbox": [
+                                576.0,
+                                362.0,
+                                584.0,
+                                370.0
+                            ]
+                        },
+                        {
+                            "id": "f6e68c87f34ae4a8a772651699bb380de3e2e64f6825acb516afd34aae661502",
+                            "text": "+1-234-456-789",
+                            "bbox": [
+                                606.0,
+                                353.0,
+                                866.0,
+                                380.0
+                            ]
+                        },
+                        {
+                            "id": "b89f57eb3e842ac06877fb637d0a6885a227152f0e86213eeca4fc916483057b",
+                            "text": "+",
+                            "bbox": [
+                                888.0,
+                                362.0,
+                                896.0,
+                                370.0
+                            ]
+                        },
+                        {
+                            "id": "2689385770e3cebc775242be2cb79e630878f4ab787c48eaf4159117a96c0021",
+                            "text": "professionalemail@resumeworded.com",
+                            "bbox": [
+                                920.0,
+                                351.0,
+                                1579.0,
+                                388.0
+                            ]
+                        },
+                        {
+                            "id": "390c95739d7c5b9713f5b2b2274fd5ae26096d320b4fcbbba555bf967ad34913",
+                            "text": "*",
+                            "bbox": [
+                                1602.0,
+                                362.0,
+                                1610.0,
+                                370.0
+                            ]
+                        },
+                        {
+                            "id": "5c71cb2b818ce1637ccd3d81d47eaae67341f9045c32d1ca70d010526046c7e1",
+                            "text": "linkedin.com/in/username",
+                            "bbox": [
+                                1635.0,
+                                352.0,
+                                2070.0,
+                                382.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e97453b5da61f5b4a0b38723b0a440840e5262bd29b11ee3a8f21a0f4736145f",
+                    "text": "WORK EXPERIENCE",
+                    "bbox": [
+                        226.0,
+                        462.0,
+                        608.0,
+                        489.0
+                    ],
+                    "words": [
+                        {
+                            "id": "38a0c9a2f1daec40cd206b6d5aa1d155c937abfcd7c671ebd88dbe490ea4e6b2",
+                            "text": "WORK",
+                            "bbox": [
+                                226.0,
+                                462.0,
+                                352.0,
+                                489.0
+                            ]
+                        },
+                        {
+                            "id": "392d15bf6ea055353eeca05aaef303d0423665e6e9518e76fc08f8813fbc487b",
+                            "text": "EXPERIENCE",
+                            "bbox": [
+                                366.0,
+                                462.0,
+                                608.0,
+                                489.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e316aaed564f7a383a32cd176ab9b10225b53e06457f5787e1bdf19f79c02ef5",
+                    "text": "Resume Worded, New York, NY 09/2015 — Present",
+                    "bbox": [
+                        229.0,
+                        591.0,
+                        2320.0,
+                        631.0
+                    ],
+                    "words": [
+                        {
+                            "id": "4d4e618ded78cbd942e1fc8e5210e89d9f3c67a9d91969b59df2885f50360ed8",
+                            "text": "Resume",
+                            "bbox": [
+                                229.0,
+                                593.0,
+                                389.0,
+                                625.0
+                            ]
+                        },
+                        {
+                            "id": "d2df762d761c77e015a4f3c6fd2f5eec108f2560f23d8497faba5a43957f42aa",
+                            "text": "Worded,",
+                            "bbox": [
+                                403.0,
+                                591.0,
+                                563.0,
+                                631.0
+                            ]
+                        },
+                        {
+                            "id": "370f88f735d4278fea5db97c533da2d4a13120e1b1af4b83f4641bc3b013c15e",
+                            "text": "New",
+                            "bbox": [
+                                581.0,
+                                592.0,
+                                666.0,
+                                625.0
+                            ]
+                        },
+                        {
+                            "id": "586f2677faaec10ef3746d94f9e1cbee35cd1a886b5099a910cc2a5dec514ebc",
+                            "text": "York,",
+                            "bbox": [
+                                680.0,
+                                591.0,
+                                774.0,
+                                631.0
+                            ]
+                        },
+                        {
+                            "id": "0d09220861ed2421997a5fe6944b5a7601975171d06f79b053b5dd4db68f2de2",
+                            "text": "NY",
+                            "bbox": [
+                                792.0,
+                                592.0,
+                                846.0,
+                                625.0
+                            ]
+                        },
+                        {
+                            "id": "023a47eed603f0f9d967cf0cfc90b7f95e76e460827cfdaba97018297dbc1f5d",
+                            "text": "09/2015",
+                            "bbox": [
+                                1943.0,
+                                592.0,
+                                2111.0,
+                                628.0
+                            ]
+                        },
+                        {
+                            "id": "85bad079689be1496913ba24320a6fc2c9fcf3488677d1c6cff0736b51d6e905",
+                            "text": "—",
+                            "bbox": [
+                                2127.0,
+                                607.0,
+                                2150.0,
+                                610.0
+                            ]
+                        },
+                        {
+                            "id": "db26e3ca4ad5ad25ef33abf8d4718410204db6762ecaa4cd0ebf5ef2d94e3a68",
+                            "text": "Present",
+                            "bbox": [
+                                2170.0,
+                                592.0,
+                                2320.0,
+                                626.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "fb3a93a2fb5cb92f84d9233d4c1d29d4961ae34aa5c794ca24870ca85f0f3991",
+                    "text": "Education technology startup with 50+ employees and $100m+ annual revenue",
+                    "bbox": [
+                        227.0,
+                        650.0,
+                        1632.0,
+                        693.0
+                    ],
+                    "words": [
+                        {
+                            "id": "08673627f8b6b7a09f59e11eb8b6e068f1475c4db2c60bd00bb102a4faa3c6d6",
+                            "text": "Education",
+                            "bbox": [
+                                227.0,
+                                653.0,
+                                401.0,
+                                684.0
+                            ]
+                        },
+                        {
+                            "id": "bd92eac001cc97904509a40a86c3f2f35de29dc43793b69162af6656e58fd40e",
+                            "text": "technology",
+                            "bbox": [
+                                415.0,
+                                653.0,
+                                611.0,
+                                693.0
+                            ]
+                        },
+                        {
+                            "id": "6085c756d29e4e1fd57008b93094ed9a21eb7b73501773756739707f9c51402b",
+                            "text": "startup",
+                            "bbox": [
+                                621.0,
+                                656.0,
+                                746.0,
+                                692.0
+                            ]
+                        },
+                        {
+                            "id": "cc9f1d802256a67585a101e8271f3df84cf67568344b4a698455f11d14621a94",
+                            "text": "with",
+                            "bbox": [
+                                762.0,
+                                653.0,
+                                832.0,
+                                684.0
+                            ]
+                        },
+                        {
+                            "id": "42ecc6a777e8d679f35a61929f3605cf51a260fc2dc822928e76d72df6eb978f",
+                            "text": "50+",
+                            "bbox": [
+                                848.0,
+                                654.0,
+                                912.0,
+                                684.0
+                            ]
+                        },
+                        {
+                            "id": "2e1ad5b2cb5e8743922087e7225666d9124a9ad408b5cd49b5563e36a0ab501c",
+                            "text": "employees",
+                            "bbox": [
+                                924.0,
+                                653.0,
+                                1115.0,
+                                693.0
+                            ]
+                        },
+                        {
+                            "id": "605d1edf5e0d65dc9ab6584753abc8a35e1293697be6b0060e407973155f9e4c",
+                            "text": "and",
+                            "bbox": [
+                                1127.0,
+                                653.0,
+                                1193.0,
+                                684.0
+                            ]
+                        },
+                        {
+                            "id": "2bef1dfdbfd78d335a7d55bbfb079e878a3e9a060b3d5d93576c0518a792fee3",
+                            "text": "$100m+",
+                            "bbox": [
+                                1205.0,
+                                650.0,
+                                1352.0,
+                                688.0
+                            ]
+                        },
+                        {
+                            "id": "77a60b3d7a019412fcbb4407f59751180b3eb56eece657e7037ad73a75b14754",
+                            "text": "annual",
+                            "bbox": [
+                                1364.0,
+                                653.0,
+                                1482.0,
+                                684.0
+                            ]
+                        },
+                        {
+                            "id": "a1f108103d1e21864ed36f5af4390853a0a683ca9ad6db104469a15dab66f4f9",
+                            "text": "revenue",
+                            "bbox": [
+                                1494.0,
+                                662.0,
+                                1632.0,
+                                684.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "0204334520fc92a41675069b614cf4fc42f0977d53b86ebd5354143f4f9964c6",
+                    "text": "Blockchain Developer",
+                    "bbox": [
+                        228.0,
+                        723.0,
+                        670.0,
+                        766.0
+                    ],
+                    "words": [
+                        {
+                            "id": "5cfdad4c4104be4a3bfab9cb04a91de4c198caff8b7301c4bc6cb67ea410cacb",
+                            "text": "Blockchain",
+                            "bbox": [
+                                228.0,
+                                723.0,
+                                450.0,
+                                757.0
+                            ]
+                        },
+                        {
+                            "id": "05feaea764c3f53f50c15ba2d739538c489e525f74835344004d8697a7a65f7b",
+                            "text": "Developer",
+                            "bbox": [
+                                466.0,
+                                723.0,
+                                670.0,
+                                766.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "afb9fd2f24d1baa4cd9bb5ceb35ffde4c09fce5237305fd0b813cab3e11b9467",
+                    "text": "e Developed 16 decentralized social media web applications using React, CSS, Bootstrap, and web3.js/Ethers",
+                    "bbox": [
+                        303.0,
+                        803.0,
+                        2315.0,
+                        843.0
+                    ],
+                    "words": [
+                        {
+                            "id": "757293a6d3b48ea08644ef51d4dbee43ba58d17d93d8efb4eec7251d508654c6",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                815.0,
+                                320.0,
+                                831.0
+                            ]
+                        },
+                        {
+                            "id": "9c1b1bd2f4678d0bff2ca2c0f55ced06afa369b5d683cf970dcd90e19eed4001",
+                            "text": "Developed",
+                            "bbox": [
+                                379.0,
+                                803.0,
+                                562.0,
+                                843.0
+                            ]
+                        },
+                        {
+                            "id": "6607fcae80715b87d0948c594540f81f3491a067b0cfcea7b3a4eddf57fba709",
+                            "text": "16",
+                            "bbox": [
+                                578.0,
+                                804.0,
+                                619.0,
+                                834.0
+                            ]
+                        },
+                        {
+                            "id": "a28464b9364be04001c079cbf179b93230c438e1221c1150778753f4fed612f2",
+                            "text": "decentralized",
+                            "bbox": [
+                                634.0,
+                                803.0,
+                                871.0,
+                                834.0
+                            ]
+                        },
+                        {
+                            "id": "16153d98bee7f7939a7e3f43a98745e89590be1313ff9ba5c2b6442a31ade729",
+                            "text": "social",
+                            "bbox": [
+                                886.0,
+                                803.0,
+                                988.0,
+                                834.0
+                            ]
+                        },
+                        {
+                            "id": "c1eadfea2bd0e1a06c6c551574a7b54c5f34a63dd20f0c47c737414fa4b87428",
+                            "text": "media",
+                            "bbox": [
+                                1004.0,
+                                803.0,
+                                1111.0,
+                                834.0
+                            ]
+                        },
+                        {
+                            "id": "beb38704ffa9c7059cad105a126a8fd772a63dcae05771849036981a338b1a1b",
+                            "text": "web",
+                            "bbox": [
+                                1126.0,
+                                803.0,
+                                1199.0,
+                                834.0
+                            ]
+                        },
+                        {
+                            "id": "7a45cd15164e6f0e6c6a410d8a6606d4f3e93437367ced2716098fcbf5662862",
+                            "text": "applications",
+                            "bbox": [
+                                1213.0,
+                                803.0,
+                                1430.0,
+                                843.0
+                            ]
+                        },
+                        {
+                            "id": "882d93fb1bb8e29e72d97bad5b13d6bf95849a71a053cbdc38f5ba0dad748214",
+                            "text": "using",
+                            "bbox": [
+                                1445.0,
+                                804.0,
+                                1538.0,
+                                843.0
+                            ]
+                        },
+                        {
+                            "id": "93a692b09f88f0edad648372a3be22414fa14fa77152034ec5cc423b68c94b30",
+                            "text": "React,",
+                            "bbox": [
+                                1554.0,
+                                804.0,
+                                1662.0,
+                                839.0
+                            ]
+                        },
+                        {
+                            "id": "abeef45b849e26d07a72cf60cf712cba166bedaf6dc4b6aac8078066ccddf924",
+                            "text": "CSS,",
+                            "bbox": [
+                                1677.0,
+                                804.0,
+                                1757.0,
+                                839.0
+                            ]
+                        },
+                        {
+                            "id": "840011ebd76acc3f506b0e70f95b1f63b99e9fcce0f6a180dd84cf19fc5c3aed",
+                            "text": "Bootstrap,",
+                            "bbox": [
+                                1773.0,
+                                804.0,
+                                1954.0,
+                                843.0
+                            ]
+                        },
+                        {
+                            "id": "be7c4b66d341c016ab12b66cdeb4533e4c608d6ff0dd30966b08532a6de468c2",
+                            "text": "and",
+                            "bbox": [
+                                1968.0,
+                                803.0,
+                                2031.0,
+                                834.0
+                            ]
+                        },
+                        {
+                            "id": "144d2387ec30540717b1e621e513aa5cf4350eeba1ad4167953515b7d5444c05",
+                            "text": "web3.js/Ethers",
+                            "bbox": [
+                                2045.0,
+                                803.0,
+                                2315.0,
+                                843.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e278eb9b5081e463aeb69449effd5ebe14651e894914d802b7448e9ebb1089ca",
+                    "text": "for integrating Ethereum.",
+                    "bbox": [
+                        376.0,
+                        858.0,
+                        823.0,
+                        899.0
+                    ],
+                    "words": [
+                        {
+                            "id": "23c58842f835b4bf7d8bd69245244547ea0e6dcdf50c93a01cd6a5824a84e7b3",
+                            "text": "for",
+                            "bbox": [
+                                376.0,
+                                858.0,
+                                425.0,
+                                890.0
+                            ]
+                        },
+                        {
+                            "id": "1b64717af1c59b8366e3b263d9fe063d4ca1ac21c64e242ee1552fcd55d64f9b",
+                            "text": "integrating",
+                            "bbox": [
+                                439.0,
+                                860.0,
+                                628.0,
+                                899.0
+                            ]
+                        },
+                        {
+                            "id": "4cfd26607d114c7fabfce068cc8c8ab1c3e932bd17b9a9a0899be8f36e3f4c7d",
+                            "text": "Ethereum.",
+                            "bbox": [
+                                645.0,
+                                859.0,
+                                823.0,
+                                890.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ded86d6f3c9cffdbb00257dbdb5f91a95c2be5efcee8129828d03a3f78178f04",
+                    "text": "e Reduced costs by 40% using an Ethereum smart contract to automate supply chain management",
+                    "bbox": [
+                        303.0,
+                        915.0,
+                        2139.0,
+                        955.0
+                    ],
+                    "words": [
+                        {
+                            "id": "3e7877239a92fbe39ff6e77b822bba43f98a45838301d24365b0476efd204057",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                927.0,
+                                320.0,
+                                943.0
+                            ]
+                        },
+                        {
+                            "id": "fa62c7668e4d22e605b71e6de0187a0c47732a02e446832e4abc992783056af1",
+                            "text": "Reduced",
+                            "bbox": [
+                                378.0,
+                                915.0,
+                                532.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "afa60c00081e347a12df16cd6564e3444a30048c81d9e327f6cb3d4c74d4705b",
+                            "text": "costs",
+                            "bbox": [
+                                547.0,
+                                918.0,
+                                643.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "540e394df1d86c8bd36fa3be55994906c9aadc65ce121a29ad0af231b0a13d0c",
+                            "text": "by",
+                            "bbox": [
+                                659.0,
+                                915.0,
+                                698.0,
+                                955.0
+                            ]
+                        },
+                        {
+                            "id": "dbca205005110e5458f7a293200955058dd8ceecccb28544057c3a896a11b396",
+                            "text": "40%",
+                            "bbox": [
+                                709.0,
+                                916.0,
+                                784.0,
+                                947.0
+                            ]
+                        },
+                        {
+                            "id": "c1c32a012a6292bf8c88d1797856c3a27a0ab5b4302e0342ac63fb44367c5b9e",
+                            "text": "using",
+                            "bbox": [
+                                799.0,
+                                916.0,
+                                892.0,
+                                955.0
+                            ]
+                        },
+                        {
+                            "id": "d1f9c3dee204b5e270f0a7fbc028d72b963608d6155fc972d4af6e7bb859c243",
+                            "text": "an",
+                            "bbox": [
+                                907.0,
+                                923.0,
+                                947.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "0720c3d7f578f502c4afe5b8a8110a0427a637fead3dbadb5a9a3545a2654e0f",
+                            "text": "Ethereum",
+                            "bbox": [
+                                964.0,
+                                915.0,
+                                1134.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "0bb40aaec7776eed557836b738c3f204af5ec84596ae0f3f10632a154ce2c602",
+                            "text": "smart",
+                            "bbox": [
+                                1149.0,
+                                918.0,
+                                1253.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "834a2b7e5bbbcbad9df0bfe2f476f135df00bfab6c6804bdfa87bca80f4df694",
+                            "text": "contract",
+                            "bbox": [
+                                1268.0,
+                                918.0,
+                                1415.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "ddc8b68a845ea39163b9d7b8ad61564fd028000b164fb5baaca523bd59445d03",
+                            "text": "to",
+                            "bbox": [
+                                1427.0,
+                                918.0,
+                                1461.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "1c5299c7191f07dd37646db7b19516535244b848068ed0d847fffac0c4a0fd08",
+                            "text": "automate",
+                            "bbox": [
+                                1476.0,
+                                918.0,
+                                1648.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "f73b0ebe063fb8f54c2ec19bad877e3e74ee0274df96ff69c10f97f03db91db1",
+                            "text": "supply",
+                            "bbox": [
+                                1661.0,
+                                915.0,
+                                1778.0,
+                                955.0
+                            ]
+                        },
+                        {
+                            "id": "488bd451ddd904376a7078508adbcfb42a943f9804ba82e12e49bf81ab9be060",
+                            "text": "chain",
+                            "bbox": [
+                                1791.0,
+                                915.0,
+                                1885.0,
+                                946.0
+                            ]
+                        },
+                        {
+                            "id": "dd8d294aa5cd3f098a738c9dcfd97fbb668560865e7b862401ede58f727604a9",
+                            "text": "management",
+                            "bbox": [
+                                1901.0,
+                                918.0,
+                                2139.0,
+                                955.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "3de31beeae795a90a825ed1c01662bba07a0bee67d2dc837f8cc8aefc9369629",
+                    "text": "processes.",
+                    "bbox": [
+                        378.0,
+                        981.0,
+                        569.0,
+                        1012.0
+                    ],
+                    "words": [
+                        {
+                            "id": "caad0c19deaf3f0e54958bee7ef38fc7458177e5125161c96dd90774bf278c6f",
+                            "text": "processes.",
+                            "bbox": [
+                                378.0,
+                                981.0,
+                                569.0,
+                                1012.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e49f342ca4d7622f2d948ad26e200c1a8e6275340da1055fd24027483acdd46b",
+                    "text": "e Built a private blockchain using Hyperledger Fabric 1.0 that enhanced data security and reduced risk",
+                    "bbox": [
+                        303.0,
+                        1028.0,
+                        2183.0,
+                        1068.0
+                    ],
+                    "words": [
+                        {
+                            "id": "5791bf0037bc51cf3891d0cdbe814f0395764b71ff3d8a8ec637220427531da0",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                1040.0,
+                                320.0,
+                                1056.0
+                            ]
+                        },
+                        {
+                            "id": "de4745bbf3e0056e2ecf45d10be01b642e67b7eaace05d3b87d47d379a7b8eca",
+                            "text": "Built",
+                            "bbox": [
+                                379.0,
+                                1028.0,
+                                453.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "b8f177a2e7045e9d32d3b72518bc50202c5b1b4e52bcac7f8fe324851da86619",
+                            "text": "a",
+                            "bbox": [
+                                468.0,
+                                1037.0,
+                                485.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "85780102853704599a23342966a5d704af8a8ad8e015ccd665d342d535534697",
+                            "text": "private",
+                            "bbox": [
+                                501.0,
+                                1029.0,
+                                620.0,
+                                1068.0
+                            ]
+                        },
+                        {
+                            "id": "b54cd43529c8441dc3a21d8f4c791578e3a17403642f6a2ef6f60606d7914767",
+                            "text": "blockchain",
+                            "bbox": [
+                                635.0,
+                                1028.0,
+                                825.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "1c9fa30c747a4cb5486da39acc6bd2e45513f5eeac6c2e35d5de2e098bd2263f",
+                            "text": "using",
+                            "bbox": [
+                                841.0,
+                                1029.0,
+                                934.0,
+                                1068.0
+                            ]
+                        },
+                        {
+                            "id": "b9fd8aa904ab12ab1d493c568de40aca971a560a1806f5ae95df4796c6ab00d3",
+                            "text": "Hyperledger",
+                            "bbox": [
+                                951.0,
+                                1028.0,
+                                1167.0,
+                                1068.0
+                            ]
+                        },
+                        {
+                            "id": "bb737da5dad9c20d6d7744ba7aa8d452b3affc5b6a8aee7c2b6f9b55028b812b",
+                            "text": "Fabric",
+                            "bbox": [
+                                1182.0,
+                                1028.0,
+                                1289.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "00019bd5efb1ef7a892e3ece30a3a5b23c2aabf286a2802122ea9027d1502a52",
+                            "text": "1.0",
+                            "bbox": [
+                                1304.0,
+                                1029.0,
+                                1355.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "c0e9331671578eb175cb6563f142a2e21a30a7df293168216b9d62f55bf83ddf",
+                            "text": "that",
+                            "bbox": [
+                                1367.0,
+                                1028.0,
+                                1437.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "62c166a6748390998734ab32ada4bce42cc8f31d1195939abe0c668feec5cbbb",
+                            "text": "enhanced",
+                            "bbox": [
+                                1451.0,
+                                1028.0,
+                                1624.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "fdc4952f5964dee758d80a07651b607a2d8f6f3b90a508571badbc2dc64d57c1",
+                            "text": "data",
+                            "bbox": [
+                                1640.0,
+                                1028.0,
+                                1716.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "bae441aaa8521b1458eaf56cc0c3c1f7a1476a3f4a64f169d6c6c4a11b92812c",
+                            "text": "security",
+                            "bbox": [
+                                1731.0,
+                                1029.0,
+                                1872.0,
+                                1068.0
+                            ]
+                        },
+                        {
+                            "id": "416ea02fb730c7fdb158a406b4ec5d0f6fd1623768a5e6c1a32a116fe0ce8601",
+                            "text": "and",
+                            "bbox": [
+                                1885.0,
+                                1028.0,
+                                1948.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "62ad843269ab55ec22630b0a714ca1338d9ec088aea3c0cd9e956a2f4d1e1ce3",
+                            "text": "reduced",
+                            "bbox": [
+                                1964.0,
+                                1028.0,
+                                2105.0,
+                                1059.0
+                            ]
+                        },
+                        {
+                            "id": "a41e7272e8e54e4680f868ea8f658ebdb9319c09b7f0236c61107d7e56b72975",
+                            "text": "risk",
+                            "bbox": [
+                                2121.0,
+                                1028.0,
+                                2183.0,
+                                1059.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "d98b8a377ecf89727499b1fe3d414adf6847feab1fd1c2e1cc5c4d6f91abc131",
+                    "text": "exposure by 93%.",
+                    "bbox": [
+                        377.0,
+                        1084.0,
+                        688.0,
+                        1124.0
+                    ],
+                    "words": [
+                        {
+                            "id": "7e01fc9e8caf548b79097bf3df0149cb513e7c5b6ac277e27baf42459be18fc4",
+                            "text": "exposure",
+                            "bbox": [
+                                377.0,
+                                1093.0,
+                                541.0,
+                                1124.0
+                            ]
+                        },
+                        {
+                            "id": "32c5e1efcfcc2df5c4e69c40a1a554113f25af071f545080b05d7e3d3a287c6d",
+                            "text": "by",
+                            "bbox": [
+                                555.0,
+                                1084.0,
+                                594.0,
+                                1124.0
+                            ]
+                        },
+                        {
+                            "id": "98b098f0c8f0aff050b1a1d763bd929079f21e8d861ba1a70575f56ad32c9bca",
+                            "text": "93%.",
+                            "bbox": [
+                                607.0,
+                                1085.0,
+                                688.0,
+                                1116.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "0d4ed0e68c3280579a2705c25ecf7aebb7b27a5316348a7523fd32940b422b36",
+                    "text": "e Created and launched 12 decentralized applications based on RW’s $150M daily transaction using",
+                    "bbox": [
+                        303.0,
+                        1137.0,
+                        2145.0,
+                        1180.0
+                    ],
+                    "words": [
+                        {
+                            "id": "476032032b40ea77de1095b4a12b893a75b8e09940e7d81c298dc5dbea6143dc",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                1152.0,
+                                320.0,
+                                1168.0
+                            ]
+                        },
+                        {
+                            "id": "3244fc11ecc54b438254c88f3981adad622dc636e2d48efc372896c266defb1e",
+                            "text": "Created",
+                            "bbox": [
+                                377.0,
+                                1140.0,
+                                514.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "beecc5acacb9cd9602405689f47a2dc96bdb73e4a4afe7b8dcf3109b65122b76",
+                            "text": "and",
+                            "bbox": [
+                                530.0,
+                                1140.0,
+                                593.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "bce3a5b70f9f20bdb004ccc3fbaa1cd2eaad1e7c34229b058e18f3bc885dda1d",
+                            "text": "launched",
+                            "bbox": [
+                                609.0,
+                                1140.0,
+                                769.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "a9bf88b4f1d2971308256ef2cd56dd191beb6a07f09f81438cd2bfa26c4be9f5",
+                            "text": "12",
+                            "bbox": [
+                                786.0,
+                                1141.0,
+                                828.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "c1ca46889ceff8c50e212da64561fbd114e130f38073fed7483003867afe628f",
+                            "text": "decentralized",
+                            "bbox": [
+                                841.0,
+                                1140.0,
+                                1078.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "7b07b4a6e089ae200f9705cb300bac7d9d275ddad48013d76702d2c120c16537",
+                            "text": "applications",
+                            "bbox": [
+                                1094.0,
+                                1140.0,
+                                1311.0,
+                                1180.0
+                            ]
+                        },
+                        {
+                            "id": "55b2698ba44ba35b087ab0a4410e5194262d256fab9ccfb772aae48e56487cf2",
+                            "text": "based",
+                            "bbox": [
+                                1326.0,
+                                1140.0,
+                                1431.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "4cb2747cdd2fc2b5c7dd4d8ba652257f496160051e4c59c5e00a85910c991990",
+                            "text": "on",
+                            "bbox": [
+                                1446.0,
+                                1148.0,
+                                1487.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "1e22fdf158589126171240eb0e7078289c8296be1235d3111954990740525a17",
+                            "text": "RW’s",
+                            "bbox": [
+                                1503.0,
+                                1140.0,
+                                1588.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "f0e506903a53ec58e07d391f15f792c921b5e519e006e6930ec6b707a0b14ca1",
+                            "text": "$150M",
+                            "bbox": [
+                                1603.0,
+                                1137.0,
+                                1725.0,
+                                1175.0
+                            ]
+                        },
+                        {
+                            "id": "965639f78431ea72fed891e2f6d1a085032202ef70f987b8497450e94d9231b6",
+                            "text": "daily",
+                            "bbox": [
+                                1741.0,
+                                1140.0,
+                                1822.0,
+                                1180.0
+                            ]
+                        },
+                        {
+                            "id": "5fd25cdaa4c07dd35ac57500c282f3d9a59c576eb5726aa19a3b7ba3777cbc90",
+                            "text": "transaction",
+                            "bbox": [
+                                1833.0,
+                                1141.0,
+                                2036.0,
+                                1171.0
+                            ]
+                        },
+                        {
+                            "id": "ac013a5fddabe601506f0748e49eb3011dc173458d0c65d2bebc83c043d81506",
+                            "text": "using",
+                            "bbox": [
+                                2052.0,
+                                1141.0,
+                                2145.0,
+                                1180.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "7aa09ac06797cf9e9ba4f17919c31e096bf4ae733e353e5f9f58a8ec09e2155f",
+                    "text": "Ethereum’s smart contracts.",
+                    "bbox": [
+                        379.0,
+                        1197.0,
+                        883.0,
+                        1228.0
+                    ],
+                    "words": [
+                        {
+                            "id": "e3f123bf0bc7870304f870f985d077eae11da1f885648196070ac65ee586b6ec",
+                            "text": "Ethereum’s",
+                            "bbox": [
+                                379.0,
+                                1197.0,
+                                574.0,
+                                1228.0
+                            ]
+                        },
+                        {
+                            "id": "4688cf32ab2562d837f98788c5014c0b40474505c01a9edf35ef124e2aff1fa7",
+                            "text": "smart",
+                            "bbox": [
+                                588.0,
+                                1200.0,
+                                692.0,
+                                1228.0
+                            ]
+                        },
+                        {
+                            "id": "34695a354ce83dfca3484a10e6dc422133fda4058321254acca9e35709aebe6f",
+                            "text": "contracts.",
+                            "bbox": [
+                                707.0,
+                                1200.0,
+                                883.0,
+                                1228.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "77609a146d5f08a35cef1766fd31d04210d29ea849e82e977e8e5e8c4c4196cc",
+                    "text": "Polyhire, London, United Kingdom 10/2012 — 08/2015",
+                    "bbox": [
+                        229.0,
+                        1294.0,
+                        2320.0,
+                        1338.0
+                    ],
+                    "words": [
+                        {
+                            "id": "59bb1f4d07a7a80d18ee9a1e3360a0bae7ee51a37df83166d24d5772b9d2e344",
+                            "text": "Polyhire,",
+                            "bbox": [
+                                229.0,
+                                1294.0,
+                                391.0,
+                                1338.0
+                            ]
+                        },
+                        {
+                            "id": "fe0625de5a38f37a8016a7e4e7dc1dc434a0cea1a5432e13558d65d8141b85f0",
+                            "text": "London,",
+                            "bbox": [
+                                409.0,
+                                1294.0,
+                                562.0,
+                                1334.0
+                            ]
+                        },
+                        {
+                            "id": "f76dfb3d7a5d614d28cc9cf3627d7c44442567d5530cdb62f31404db50d22127",
+                            "text": "United",
+                            "bbox": [
+                                580.0,
+                                1294.0,
+                                702.0,
+                                1328.0
+                            ]
+                        },
+                        {
+                            "id": "5a666208666357c61e1a188924fbaabe028695771ce06793965126d8a688471d",
+                            "text": "Kingdom",
+                            "bbox": [
+                                720.0,
+                                1294.0,
+                                894.0,
+                                1338.0
+                            ]
+                        },
+                        {
+                            "id": "74d15c556a2588e9f88a81fd345f4a0f70b843df6d6565b3ca1716ad1462448e",
+                            "text": "10/2012",
+                            "bbox": [
+                                1927.0,
+                                1295.0,
+                                2094.0,
+                                1331.0
+                            ]
+                        },
+                        {
+                            "id": "4032173ce2ef92acfc693f131273683a2c52fafe6f00ac6d58e6692d5dadfe4f",
+                            "text": "—",
+                            "bbox": [
+                                2110.0,
+                                1310.0,
+                                2133.0,
+                                1313.0
+                            ]
+                        },
+                        {
+                            "id": "1b70f031f6724f8f4eda0b0ba865ce105d0fbf9daf2c425db25d409c736b758b",
+                            "text": "08/2015",
+                            "bbox": [
+                                2152.0,
+                                1295.0,
+                                2320.0,
+                                1331.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "23d9921d07c83cae2338cc50bf40adb9d3341602beb620c11b24e3bd5f8aa015",
+                    "text": "NYSE-listed recruitment and employer branding company",
+                    "bbox": [
+                        227.0,
+                        1356.0,
+                        1245.0,
+                        1396.0
+                    ],
+                    "words": [
+                        {
+                            "id": "08c6eb6a2f8e61788b4d560fe3f162eaf2152d5ed2f5bdf17aea597e40ee28aa",
+                            "text": "NYSE-listed",
+                            "bbox": [
+                                227.0,
+                                1356.0,
+                                433.0,
+                                1387.0
+                            ]
+                        },
+                        {
+                            "id": "f6ca86e841a394bd708f3b5536e757107765ea0c8647147b0bbbbd1ea44b5b9f",
+                            "text": "recruitment",
+                            "bbox": [
+                                444.0,
+                                1357.0,
+                                649.0,
+                                1387.0
+                            ]
+                        },
+                        {
+                            "id": "2311a9a4a9983c0705eba7a5e18a370840ad42ea386dc3fd7312b4920d1b1ee8",
+                            "text": "and",
+                            "bbox": [
+                                660.0,
+                                1356.0,
+                                727.0,
+                                1387.0
+                            ]
+                        },
+                        {
+                            "id": "49e6e306c924c7aee852904d68bda6abc0fdc33006131f3e341d5768e65f7f8d",
+                            "text": "employer",
+                            "bbox": [
+                                737.0,
+                                1356.0,
+                                903.0,
+                                1396.0
+                            ]
+                        },
+                        {
+                            "id": "24ebc4b8f33d0a146625270bef88741feb2d67448f3efea662f27ffa0b1c15e2",
+                            "text": "branding",
+                            "bbox": [
+                                913.0,
+                                1356.0,
+                                1067.0,
+                                1396.0
+                            ]
+                        },
+                        {
+                            "id": "1a72d8fb7254c19c8dc9fd9991a7fd0459600d8033fea2df098b7403b43b99c9",
+                            "text": "company",
+                            "bbox": [
+                                1080.0,
+                                1365.0,
+                                1245.0,
+                                1396.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1f46f998ded69e449e63f72664f477a9180e31950dd1470290a965bc62e28737",
+                    "text": "Java Developer",
+                    "bbox": [
+                        226.0,
+                        1426.0,
+                        540.0,
+                        1469.0
+                    ],
+                    "words": [
+                        {
+                            "id": "7d28d102b18b0ead573797e87f2d10a5a69d5f812c85d2c369a5270efd634a91",
+                            "text": "Java",
+                            "bbox": [
+                                226.0,
+                                1427.0,
+                                321.0,
+                                1461.0
+                            ]
+                        },
+                        {
+                            "id": "715725fd9fdd575c0ee75d6f9ac4380e30e2677e794b20f2f0a532449f26b055",
+                            "text": "Developer",
+                            "bbox": [
+                                337.0,
+                                1426.0,
+                                540.0,
+                                1469.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2bfeb6d5844e8aa81342490200b55269edcd987ecce3130ed04707437428f154",
+                    "text": "e Eliminated duplicate strings via garbage collection logs analysis and refactoring of codes; achieved a 30%",
+                    "bbox": [
+                        303.0,
+                        1505.0,
+                        2283.0,
+                        1546.0
+                    ],
+                    "words": [
+                        {
+                            "id": "80562e258b3651bd7c9253dc8378f58cc5579a686d647472bad46a98663f93e2",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                1518.0,
+                                320.0,
+                                1534.0
+                            ]
+                        },
+                        {
+                            "id": "c281682f90596efec9fb50c19ba90a1f8989909cfc05fc225417a52cd87b8c83",
+                            "text": "Eliminated",
+                            "bbox": [
+                                379.0,
+                                1506.0,
+                                564.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "85d05834f756954de9ebfb808e0f18e6fbeb027dcb5239d3b72182f265e78208",
+                            "text": "duplicate",
+                            "bbox": [
+                                579.0,
+                                1506.0,
+                                742.0,
+                                1546.0
+                            ]
+                        },
+                        {
+                            "id": "d683d37f81cb3f79757ac8aaa0562269b5f68721c4c4e4e75d008b714cf69cb7",
+                            "text": "strings",
+                            "bbox": [
+                                756.0,
+                                1507.0,
+                                876.0,
+                                1546.0
+                            ]
+                        },
+                        {
+                            "id": "3ae3258f65c4427c9ecbf339a93110a11db5fdfd9375251ff7a5e8fea0e66436",
+                            "text": "via",
+                            "bbox": [
+                                890.0,
+                                1507.0,
+                                937.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "8b8a2a5ca8b35439d296f0825aa23a69232998c68ce0a456ec3d103cf5747b18",
+                            "text": "garbage",
+                            "bbox": [
+                                952.0,
+                                1506.0,
+                                1098.0,
+                                1546.0
+                            ]
+                        },
+                        {
+                            "id": "3911241ec0308f8b08ed864b22fae23bba487006a27a765abc7aa58fbab22bc0",
+                            "text": "collection",
+                            "bbox": [
+                                1112.0,
+                                1506.0,
+                                1282.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "28a67fc6fe135a6223e70857d5f3edd621091771c6aa294e14e98005b8fa19f4",
+                            "text": "logs",
+                            "bbox": [
+                                1298.0,
+                                1506.0,
+                                1370.0,
+                                1546.0
+                            ]
+                        },
+                        {
+                            "id": "91a6f9d80c55414fb1b95f7635c80fcfea0006478e528bb22665f34ea2675805",
+                            "text": "analysis",
+                            "bbox": [
+                                1384.0,
+                                1506.0,
+                                1528.0,
+                                1546.0
+                            ]
+                        },
+                        {
+                            "id": "d8abe75fa66b30d2d6a510ab63f755b9777c801ad3460f63d48c05b159e55ed7",
+                            "text": "and",
+                            "bbox": [
+                                1543.0,
+                                1506.0,
+                                1606.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "87ea17e95418ee8c4ff53c096979a4e5ca1ad2b4538df6defd7c73dd8430134e",
+                            "text": "refactoring",
+                            "bbox": [
+                                1622.0,
+                                1505.0,
+                                1814.0,
+                                1546.0
+                            ]
+                        },
+                        {
+                            "id": "f917aa309301ee20d5a9f0b52d9f4cbb6530cdc37f544162e6216bebc9653750",
+                            "text": "of",
+                            "bbox": [
+                                1830.0,
+                                1505.0,
+                                1865.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "a49ae5ce7d4b93461324c79062cfbee435c16630fb0f3f61cf2741d57a605ea6",
+                            "text": "codes;",
+                            "bbox": [
+                                1877.0,
+                                1506.0,
+                                1991.0,
+                                1542.0
+                            ]
+                        },
+                        {
+                            "id": "e1db598776fd53a16143d1bded85b245d9f2891fd9cb95d24de7bc812bc45df5",
+                            "text": "achieved",
+                            "bbox": [
+                                2006.0,
+                                1506.0,
+                                2162.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "6e11bf5cc9be5436b59e25abaa3b12203a2214bc36b0643d3bed981cc631a8a5",
+                            "text": "a",
+                            "bbox": [
+                                2177.0,
+                                1515.0,
+                                2194.0,
+                                1537.0
+                            ]
+                        },
+                        {
+                            "id": "71148b1afa19785ba9d24ec302d83c9b6675096f1e2f6062f58825e45ffad3c4",
+                            "text": "30%",
+                            "bbox": [
+                                2210.0,
+                                1507.0,
+                                2283.0,
+                                1538.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "02fa2b87ad3184e39867f75d4275c706755a981ebc730d82ee8b23b77d3dd41c",
+                    "text": "reduction in the app's memory consumption.",
+                    "bbox": [
+                        378.0,
+                        1562.0,
+                        1181.0,
+                        1602.0
+                    ],
+                    "words": [
+                        {
+                            "id": "0ac5059debdbb242a1517ba39e7a3303b414f0ea35ff7c4e01497375ee834c2a",
+                            "text": "reduction",
+                            "bbox": [
+                                378.0,
+                                1562.0,
+                                544.0,
+                                1593.0
+                            ]
+                        },
+                        {
+                            "id": "b1b7e4e6b6452c1cace860ad9d45dfb412a6b6ee0617b46d00c570907cdda9be",
+                            "text": "in",
+                            "bbox": [
+                                560.0,
+                                1563.0,
+                                586.0,
+                                1593.0
+                            ]
+                        },
+                        {
+                            "id": "0460f3c2fb00f96ae9e2b4a41bc55ffd42330b0a98da6d8040bdc3540fbf98ae",
+                            "text": "the",
+                            "bbox": [
+                                599.0,
+                                1562.0,
+                                655.0,
+                                1593.0
+                            ]
+                        },
+                        {
+                            "id": "764efcac74a6ac59cc2150fc7b25e9546aa16524515b70ae9dff4b43674e65ed",
+                            "text": "app's",
+                            "bbox": [
+                                669.0,
+                                1562.0,
+                                759.0,
+                                1602.0
+                            ]
+                        },
+                        {
+                            "id": "56c589dcd5ec2bbf0a1f6d1078667e86b1319955ff4ea810089648b1b0c7b8ef",
+                            "text": "memory",
+                            "bbox": [
+                                774.0,
+                                1570.0,
+                                923.0,
+                                1602.0
+                            ]
+                        },
+                        {
+                            "id": "588a312801cb08c823bd2b9cf1b934572952010215dcb25e9e9223f343c2b43b",
+                            "text": "consumption.",
+                            "bbox": [
+                                936.0,
+                                1563.0,
+                                1181.0,
+                                1602.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "26d877523f42cfd9961127d8cc0fae463be854783b9786fe5d0ef0e1cb8e3c97",
+                    "text": "e Identified and enhanced code inefficiencies that led to a 33% increase in app stability within one month on",
+                    "bbox": [
+                        303.0,
+                        1617.0,
+                        2285.0,
+                        1658.0
+                    ],
+                    "words": [
+                        {
+                            "id": "29984cc6b3b6e2ff225fb04c0f8360b1e5b2f3336159d864aea0579c45cb13d6",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                1630.0,
+                                320.0,
+                                1646.0
+                            ]
+                        },
+                        {
+                            "id": "51b7b5a24331a5773c8c7b6ca3860f588440e3a34cff825dc09c24fabcdd373f",
+                            "text": "Identified",
+                            "bbox": [
+                                379.0,
+                                1617.0,
+                                540.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "b27b1fd77e024a84e6015ddbfd9af83af3854af632828f5a3b3bb180a8bc6087",
+                            "text": "and",
+                            "bbox": [
+                                556.0,
+                                1618.0,
+                                619.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "100fff585e99db86aba54b2fcaed0e890d523e9d702bf0e1d75d41e6c757ac18",
+                            "text": "enhanced",
+                            "bbox": [
+                                634.0,
+                                1618.0,
+                                807.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "7e2ee76bff0139be9f07467aeef1bd7eed1ee46985617cceeacf4eca64ae1fd7",
+                            "text": "code",
+                            "bbox": [
+                                823.0,
+                                1618.0,
+                                909.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "2cb1e040e1baf5907f6d12016a07451359faf5a783bd933981397f1af4087cfa",
+                            "text": "inefficiencies",
+                            "bbox": [
+                                923.0,
+                                1617.0,
+                                1155.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "beb82e85fe894f3d397f30a6e5723c5dc6bfd36353c70d872f669a2c47b85fdd",
+                            "text": "that",
+                            "bbox": [
+                                1167.0,
+                                1618.0,
+                                1237.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "a9fa35f506d968a5fa6f74f7d2991f7b10cbd03c304402129210f59647fab29b",
+                            "text": "led",
+                            "bbox": [
+                                1252.0,
+                                1618.0,
+                                1300.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "208df7ded39b69de42e63ec369022544067f0d22c2e2b12fc11ef6e86d8371b7",
+                            "text": "to",
+                            "bbox": [
+                                1313.0,
+                                1621.0,
+                                1347.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "9becd26f1e0696d52e983179d8c678854fed45a3404eb05a360763a1a2827607",
+                            "text": "a",
+                            "bbox": [
+                                1362.0,
+                                1627.0,
+                                1379.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "06d069f0cd8081dc59072410edd0eca45d5444287d905c25f0426429d3ec8ac8",
+                            "text": "33%",
+                            "bbox": [
+                                1394.0,
+                                1619.0,
+                                1467.0,
+                                1650.0
+                            ]
+                        },
+                        {
+                            "id": "f8ee60a8cfe57087ff24d439d8c1af1fdabc70ae774566765cf030eb8d38aee2",
+                            "text": "increase",
+                            "bbox": [
+                                1482.0,
+                                1619.0,
+                                1631.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "877d4c2b9476c18d7c24e76e55e47b921e125e31cbdb3773428eed829e662e0b",
+                            "text": "in",
+                            "bbox": [
+                                1646.0,
+                                1619.0,
+                                1672.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "ef740738601b6379d0546331c3f0fcdc0ab338010b1731467c2fae1bb0d23969",
+                            "text": "app",
+                            "bbox": [
+                                1687.0,
+                                1627.0,
+                                1752.0,
+                                1658.0
+                            ]
+                        },
+                        {
+                            "id": "b1a381ff3ffeb9bca6b305db59cb88124947d77346f87ff06e1ebd0bba2336ce",
+                            "text": "stability",
+                            "bbox": [
+                                1766.0,
+                                1618.0,
+                                1904.0,
+                                1658.0
+                            ]
+                        },
+                        {
+                            "id": "ec0295c19e606e763b6c76044e9558f6251a9dd413436fc123d945d9995621b9",
+                            "text": "within",
+                            "bbox": [
+                                1916.0,
+                                1618.0,
+                                2022.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "68b4fb4e03a22a415901f8c02899d89df2672da40eda7bd4e9090b5f95f98bb6",
+                            "text": "one",
+                            "bbox": [
+                                2037.0,
+                                1626.0,
+                                2101.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "aa30ea2eb277f293c2dee54641ba802baad55ade464ed9269ec495b1a8f158cf",
+                            "text": "month",
+                            "bbox": [
+                                2115.0,
+                                1618.0,
+                                2229.0,
+                                1649.0
+                            ]
+                        },
+                        {
+                            "id": "60a5d8593811bd4006117dcce87882839b82bc7f431b7d5025677d2f512a2480",
+                            "text": "on",
+                            "bbox": [
+                                2244.0,
+                                1626.0,
+                                2285.0,
+                                1649.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "834195a25083ef968f8676e5ad3e7aad2c0b431080706f0713c67d45a83091f8",
+                    "text": "the job.",
+                    "bbox": [
+                        375.0,
+                        1671.0,
+                        505.0,
+                        1719.0
+                    ],
+                    "words": [
+                        {
+                            "id": "8e4a50eaaa43b6ef6d6f08c5010180ee3a81d37a8c1d40a940fe3cf72ca96c2f",
+                            "text": "the",
+                            "bbox": [
+                                375.0,
+                                1675.0,
+                                423.0,
+                                1706.0
+                            ]
+                        },
+                        {
+                            "id": "3aba46dd746205abdb68b79505c7ab988847a60ef645326f2ec6e03836da348d",
+                            "text": "job.",
+                            "bbox": [
+                                441.0,
+                                1671.0,
+                                505.0,
+                                1719.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "f43a2e89b405c9d5f02cd91e9d4684273a82beb13996b607251ff8b6d607768f",
+                    "text": "e Created reusable component libraries using J2EE technologies and application servers to increase",
+                    "bbox": [
+                        303.0,
+                        1731.0,
+                        2152.0,
+                        1771.0
+                    ],
+                    "words": [
+                        {
+                            "id": "5f37cd97b1e69a04b6aa15db482d8cdfbd6b4bd20cb8617423fc39d8e6585b8c",
+                            "text": "e",
+                            "bbox": [
+                                303.0,
+                                1743.0,
+                                320.0,
+                                1759.0
+                            ]
+                        },
+                        {
+                            "id": "7854f473a3570ee902bfa9897bffe4ed45efb5f8f5cfdd2e24e8c8503d5299cc",
+                            "text": "Created",
+                            "bbox": [
+                                377.0,
+                                1731.0,
+                                514.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "3b71f2ad167930ba9d2e70ec8af645682fd6792dfb0dcdce7661e69f7bfa7da3",
+                            "text": "reusable",
+                            "bbox": [
+                                531.0,
+                                1731.0,
+                                682.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "fcf1d731a5034ce15e326a7a83d1dc66c6176e9fbeb2c65e770a0ee12e6c4cad",
+                            "text": "component",
+                            "bbox": [
+                                695.0,
+                                1734.0,
+                                900.0,
+                                1771.0
+                            ]
+                        },
+                        {
+                            "id": "dee9c072540506daf421821d003e7b973845cbe7102a89404de7c555985cc1fb",
+                            "text": "libraries",
+                            "bbox": [
+                                915.0,
+                                1731.0,
+                                1053.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "00805f1976213385e0019bd1a474c7ec467f25ff575766a6de4ec4026dc959e7",
+                            "text": "using",
+                            "bbox": [
+                                1068.0,
+                                1732.0,
+                                1162.0,
+                                1771.0
+                            ]
+                        },
+                        {
+                            "id": "29e19ea52f5f3b993018ecf5806b1de8f8f932a7535c605e690608c3cdad0fdd",
+                            "text": "J2EE",
+                            "bbox": [
+                                1176.0,
+                                1732.0,
+                                1267.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "44714f78133c4049f8a86ea8ab86a5334fb42914f721d29c394db12fa2b0bc6f",
+                            "text": "technologies",
+                            "bbox": [
+                                1278.0,
+                                1731.0,
+                                1509.0,
+                                1771.0
+                            ]
+                        },
+                        {
+                            "id": "400951a6f8cc0cfe53d59464260a2066daf06476f28bd43eb26b63f06c956db5",
+                            "text": "and",
+                            "bbox": [
+                                1524.0,
+                                1731.0,
+                                1587.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "8a772fc6131c5bae4b9540ad654caf46c53c5a446c1bd11d71de6ac40ca1d3d7",
+                            "text": "application",
+                            "bbox": [
+                                1602.0,
+                                1731.0,
+                                1797.0,
+                                1771.0
+                            ]
+                        },
+                        {
+                            "id": "e2c1adedf3dc39142911b9796bd13a18b0dfadf6edc328292e62263715a60a7f",
+                            "text": "servers",
+                            "bbox": [
+                                1812.0,
+                                1740.0,
+                                1941.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "91a36f72d31c0de548c7a13dc2ad91086b2f72739691d80a4c7dbd1909ed2a15",
+                            "text": "to",
+                            "bbox": [
+                                1953.0,
+                                1734.0,
+                                1987.0,
+                                1762.0
+                            ]
+                        },
+                        {
+                            "id": "51e64792ec51eb90ce970413c82ba4f61623d241e328d476f36e9027664a3385",
+                            "text": "increase",
+                            "bbox": [
+                                2003.0,
+                                1732.0,
+                                2152.0,
+                                1762.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "263a58ea430b2079d9b5844149129769fdb2f0dbb592d53d985686427b7e8705",
+                    "text": "productivity by 80%.",
+                    "bbox": [
+                        378.0,
+                        1787.0,
+                        734.0,
+                        1827.0
+                    ],
+                    "words": [
+                        {
+                            "id": "99504edbc40a51b59d4f4aec448da8052853a7b99bee165aab71563b924f908f",
+                            "text": "productivity",
+                            "bbox": [
+                                378.0,
+                                1787.0,
+                                587.0,
+                                1827.0
+                            ]
+                        },
+                        {
+                            "id": "0982ab312f2f9f4b606fa4ac3e41d0b3adeb55ceb13b39b659530d699f5ffb0a",
+                            "text": "by",
+                            "bbox": [
+                                601.0,
+                                1787.0,
+                                640.0,
+                                1827.0
+                            ]
+                        },
+                        {
+                            "id": "0a5e9b6b7e48fdf4b1d78c5a7b4bf3c38e8284e3110d4f2d8d27019de2cf8505",
+                            "text": "80%.",
+                            "bbox": [
+                                653.0,
+                                1788.0,
+                                734.0,
+                                1819.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1bd72251b4f2c17ef48eb1048681027ee47d12346c0e58e3fcac1ae7501fea4c",
+                    "text": "Growthsi, London, United Kingdom 01/2010 — 09/2012",
+                    "bbox": [
+                        228.0,
+                        1885.0,
+                        2320.0,
+                        1929.0
+                    ],
+                    "words": [
+                        {
+                            "id": "f8e48d438e7012854d6d769cef4e1dbc5c927ba89a9639731f815f6c28cb0ea9",
+                            "text": "Growthsi,",
+                            "bbox": [
+                                228.0,
+                                1885.0,
+                                411.0,
+                                1925.0
+                            ]
+                        },
+                        {
+                            "id": "26d220335df33395b2c1ed05d9c837e2ad771b1aded29f380f27c703ded33d92",
+                            "text": "London,",
+                            "bbox": [
+                                429.0,
+                                1885.0,
+                                582.0,
+                                1925.0
+                            ]
+                        },
+                        {
+                            "id": "c585f7e6b4e1cdc8bd6f70b9c360a25df0b0a53e04d80da958201d534eb5153e",
+                            "text": "United",
+                            "bbox": [
+                                600.0,
+                                1885.0,
+                                722.0,
+                                1919.0
+                            ]
+                        },
+                        {
+                            "id": "062dbe224301a31534c0b658fb1b7e9a6deb4d8380461b2cc9b7c598a547ea48",
+                            "text": "Kingdom",
+                            "bbox": [
+                                740.0,
+                                1885.0,
+                                914.0,
+                                1929.0
+                            ]
+                        },
+                        {
+                            "id": "eb54fe79516f8c727b20a56e0521b9fddf8bd30cb8b33e559d379ee2eb2a62c7",
+                            "text": "01/2010",
+                            "bbox": [
+                                1926.0,
+                                1886.0,
+                                2093.0,
+                                1922.0
+                            ]
+                        },
+                        {
+                            "id": "fd90687f884fc93bba1d8cffd389e9bc0498156d675cecae879b8a8e13096f6f",
+                            "text": "—",
+                            "bbox": [
+                                2110.0,
+                                1901.0,
+                                2133.0,
+                                1904.0
+                            ]
+                        },
+                        {
+                            "id": "c31eb12d5dc15d1cffbdb70d5c1ccf3dfcf42a1d896cddffcffae5119116126e",
+                            "text": "09/2012",
+                            "bbox": [
+                                2152.0,
+                                1886.0,
+                                2320.0,
+                                1922.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4a685197c3456463a26143c52f609c346e2974d753de26c5085deecf0016ccb2",
+                    "text": "Career training and membership SaaS with 150,000 paying users",
+                    "bbox": [
+                        227.0,
+                        1947.0,
+                        1375.0,
+                        1987.0
+                    ],
+                    "words": [
+                        {
+                            "id": "e0699684974e1c5af9ca5552593188ef85af1ef7870ec2984d49daa67f5ea10a",
+                            "text": "Career",
+                            "bbox": [
+                                227.0,
+                                1948.0,
+                                344.0,
+                                1978.0
+                            ]
+                        },
+                        {
+                            "id": "08c30f5626d1ae386816f4738bce38a9f965b650f92ff02c812eb56ee97998b8",
+                            "text": "training",
+                            "bbox": [
+                                355.0,
+                                1948.0,
+                                485.0,
+                                1987.0
+                            ]
+                        },
+                        {
+                            "id": "4461c210d26d9fdd3eaf68157568cc6bff04937e1174d9629e0890374ebb0213",
+                            "text": "and",
+                            "bbox": [
+                                498.0,
+                                1947.0,
+                                564.0,
+                                1978.0
+                            ]
+                        },
+                        {
+                            "id": "fb1046c29690715f62a6bf34de9b4942d9449aa346bec9e770364e563dc62832",
+                            "text": "membership",
+                            "bbox": [
+                                574.0,
+                                1947.0,
+                                796.0,
+                                1986.0
+                            ]
+                        },
+                        {
+                            "id": "7cb6defc3a2cd78f218f0452e572bbcdb0b62eb7e20cf106b9ccfd0bdf249ac9",
+                            "text": "SaaS",
+                            "bbox": [
+                                810.0,
+                                1948.0,
+                                901.0,
+                                1978.0
+                            ]
+                        },
+                        {
+                            "id": "0bd7dea8cb7d596c37693fddbd3f496c3671becdda012319ea6ed57c085780d1",
+                            "text": "with",
+                            "bbox": [
+                                914.0,
+                                1947.0,
+                                984.0,
+                                1978.0
+                            ]
+                        },
+                        {
+                            "id": "17cafa9291740610a3f9ddb6e2ebf0237632cb8a2f911f9338d072c7f00d0e41",
+                            "text": "150,000",
+                            "bbox": [
+                                1002.0,
+                                1948.0,
+                                1138.0,
+                                1983.0
+                            ]
+                        },
+                        {
+                            "id": "d9bbcbd24d9eeaae38a94af2179ac326595e3c7df32fa2c951833ae65ed3f70d",
+                            "text": "paying",
+                            "bbox": [
+                                1149.0,
+                                1948.0,
+                                1266.0,
+                                1987.0
+                            ]
+                        },
+                        {
+                            "id": "09724fd5979a5947752ea9d937db64f09988ffeedac8c9de3d2b9d5b511f7794",
+                            "text": "users",
+                            "bbox": [
+                                1280.0,
+                                1956.0,
+                                1375.0,
+                                1978.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "6f81f1651c6e0bbe94b78cb0c07c2ce3dea1f0a65e409f73a65e2c5878a2aac3",
+                    "text": "Software Developer and Data Science Intern",
+                    "bbox": [
+                        226.0,
+                        2015.0,
+                        1128.0,
+                        2059.0
+                    ],
+                    "words": [
+                        {
+                            "id": "18cb83974168a8894b3bd524c4d8839fdbf3e49216ee04665a381961d771d296",
+                            "text": "Software",
+                            "bbox": [
+                                226.0,
+                                2015.0,
+                                408.0,
+                                2050.0
+                            ]
+                        },
+                        {
+                            "id": "c32d83d1499c97a7f2e1fe143b8d4c5c0888e3c74112ce5c267a8dfe82c0c32e",
+                            "text": "Developer",
+                            "bbox": [
+                                425.0,
+                                2016.0,
+                                628.0,
+                                2059.0
+                            ]
+                        },
+                        {
+                            "id": "1b9f91ec072c81bf126a1fe7a79af0e97898dc4ab9f87c3f116876f1e7f70f6b",
+                            "text": "and",
+                            "bbox": [
+                                641.0,
+                                2016.0,
+                                713.0,
+                                2050.0
+                            ]
+                        },
+                        {
+                            "id": "271819fc6922fb62358bde2685d3e85d688dd68a2f0e4034da3451bdd35ae019",
+                            "text": "Data",
+                            "bbox": [
+                                731.0,
+                                2017.0,
+                                820.0,
+                                2050.0
+                            ]
+                        },
+                        {
+                            "id": "5f408e81165358d25a2f9dad7611830dc36b28a7175d39305b4ea9583000c40d",
+                            "text": "Science",
+                            "bbox": [
+                                834.0,
+                                2016.0,
+                                995.0,
+                                2050.0
+                            ]
+                        },
+                        {
+                            "id": "cd5db575190598663f189c861246731ccf77b0e68b4e2ed7fb2fe9551f10ec62",
+                            "text": "Intern",
+                            "bbox": [
+                                1011.0,
+                                2017.0,
+                                1128.0,
+                                2050.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "1ff4fc51611d5095414a63c74a6172cca32f5861792aee89b78ee8bee1d77b19",
+                    "text": "e Enhanced a customer's website content ranking algorithm and front-end features, which increased user",
+                    "bbox": [
+                        304.0,
+                        2096.0,
+                        2245.0,
+                        2137.0
+                    ],
+                    "words": [
+                        {
+                            "id": "b1787be402a219b9c296909a5bb549fa3b9ab2d02321eccdaa02190d746334b9",
+                            "text": "e",
+                            "bbox": [
+                                304.0,
+                                2107.0,
+                                322.0,
+                                2125.0
+                            ]
+                        },
+                        {
+                            "id": "c2f39b876e0824a8e3535ce4822564d8eb9960eb47c324bd1fa2d4875e1e7e79",
+                            "text": "Enhanced",
+                            "bbox": [
+                                379.0,
+                                2097.0,
+                                553.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "9149b170a2f7865771fc257c1b77a366e36c7d68a778a7fdca6f4354c169cb7b",
+                            "text": "a",
+                            "bbox": [
+                                568.0,
+                                2106.0,
+                                585.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "8df44453a5284c48120f9ac3d0db073b6ef0176d66334aea3589ce2e9a868891",
+                            "text": "customer's",
+                            "bbox": [
+                                600.0,
+                                2097.0,
+                                797.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "c74b5c78c65e77112e4680aefd5e3734d20da081d6fc61220ea6dde5a3918280",
+                            "text": "website",
+                            "bbox": [
+                                810.0,
+                                2097.0,
+                                949.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "ebb792e53189334d5e378ff40b89c67fcf400ce3e7fe81adfa1e890dda0eb3cb",
+                            "text": "content",
+                            "bbox": [
+                                963.0,
+                                2100.0,
+                                1097.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "101624cf188ecf00a5c8117f5ec62a7d8026ff92b8ad231f188a8a59c1ae70fa",
+                            "text": "ranking",
+                            "bbox": [
+                                1113.0,
+                                2097.0,
+                                1241.0,
+                                2137.0
+                            ]
+                        },
+                        {
+                            "id": "dcd72810e37f62b2d40cd7895df40ea8c22772d267db69262bdce7cfbd45c270",
+                            "text": "algorithm",
+                            "bbox": [
+                                1256.0,
+                                2097.0,
+                                1426.0,
+                                2137.0
+                            ]
+                        },
+                        {
+                            "id": "66f4a582aebd93311a09dfe1cdd7b9b592743b4ba7eb06aa1d2ef2870955ba60",
+                            "text": "and",
+                            "bbox": [
+                                1441.0,
+                                2097.0,
+                                1504.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "b1ce318fe238b3912000883cd00e91eb9afa11b96af802675551b82257ad7744",
+                            "text": "front-end",
+                            "bbox": [
+                                1518.0,
+                                2096.0,
+                                1681.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "232094eb190747fe02cfb40872b7ce552c2e13d505d85b94881ec4a94d7659c1",
+                            "text": "features,",
+                            "bbox": [
+                                1695.0,
+                                2096.0,
+                                1849.0,
+                                2133.0
+                            ]
+                        },
+                        {
+                            "id": "2ee878def7e1a8ac34542db3bec3a824d773261d60ae9716ca3c33ff02b2aee4",
+                            "text": "which",
+                            "bbox": [
+                                1863.0,
+                                2097.0,
+                                1967.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "b15923a9f94a5090b8a4bbc615d59324f78d46a2e8ed79650924cb3190d5f9b6",
+                            "text": "increased",
+                            "bbox": [
+                                1983.0,
+                                2097.0,
+                                2153.0,
+                                2128.0
+                            ]
+                        },
+                        {
+                            "id": "311107ef816b0cce20a2120dec2e0cd230c9aa72e503bcc231339f03efc03414",
+                            "text": "user",
+                            "bbox": [
+                                2170.0,
+                                2106.0,
+                                2245.0,
+                                2128.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2d15e3ce850a7c624912210c1800e1fa7aad521da8794298941276bd6b93ccba",
+                    "text": "base and retention by 79%.",
+                    "bbox": [
+                        378.0,
+                        2153.0,
+                        859.0,
+                        2193.0
+                    ],
+                    "words": [
+                        {
+                            "id": "0e1000d00b4529871e3244900ca03ddeebb4812abe86278450c619d6886183e4",
+                            "text": "base",
+                            "bbox": [
+                                378.0,
+                                2153.0,
+                                461.0,
+                                2184.0
+                            ]
+                        },
+                        {
+                            "id": "9fa5f23ca4ed53568c08c576660ee657df7c3ba02353ceeceff2ae6f6600e176",
+                            "text": "and",
+                            "bbox": [
+                                475.0,
+                                2153.0,
+                                538.0,
+                                2184.0
+                            ]
+                        },
+                        {
+                            "id": "8ce1d72c6cd560525e9dc657875f86e20a67a2ca2b77b8d8149c5fab8110f68a",
+                            "text": "retention",
+                            "bbox": [
+                                555.0,
+                                2154.0,
+                                711.0,
+                                2184.0
+                            ]
+                        },
+                        {
+                            "id": "15c3c758b562fd5d9245fa63220920b3c548630f90034b299e960fa129cf8adf",
+                            "text": "by",
+                            "bbox": [
+                                727.0,
+                                2153.0,
+                                765.0,
+                                2193.0
+                            ]
+                        },
+                        {
+                            "id": "19d85d23d9f05a675e02ee91bf1d495cb74a0fcfb01380ad19602aaa9dfb0211",
+                            "text": "79%.",
+                            "bbox": [
+                                777.0,
+                                2154.0,
+                                859.0,
+                                2185.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "06fce95efd875d6e5152dd3724847891192e3abfe0e2fcf8a6beea093e15b08b",
+                    "text": "e Collaborated with 12 development teams to refractor an open source Python Script and web scrape",
+                    "bbox": [
+                        304.0,
+                        2208.0,
+                        2175.0,
+                        2249.0
+                    ],
+                    "words": [
+                        {
+                            "id": "1cef22b37879efe809093fcd668e4fcb985b7a326a06f3126c5373d5a7b6e11e",
+                            "text": "e",
+                            "bbox": [
+                                304.0,
+                                2219.0,
+                                322.0,
+                                2237.0
+                            ]
+                        },
+                        {
+                            "id": "b0efae429ce38fb7162f16e4707b84986d42360ecbf2db0a6320a42562c2e85d",
+                            "text": "Collaborated",
+                            "bbox": [
+                                377.0,
+                                2209.0,
+                                603.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "81e3ee6902c35c5b4bafba2f976496e9b4f9b448a23eb3ae85b60bb759a17bd6",
+                            "text": "with",
+                            "bbox": [
+                                617.0,
+                                2209.0,
+                                691.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "9346c8f0ec009949eecc05fe982bdbce646ad57b465c436cf7c0bf36835f5556",
+                            "text": "12",
+                            "bbox": [
+                                707.0,
+                                2210.0,
+                                749.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "6378f38763a17de60f1f88f467e49f1c12186690c0381aeda65826bbf0afee96",
+                            "text": "development",
+                            "bbox": [
+                                762.0,
+                                2209.0,
+                                994.0,
+                                2249.0
+                            ]
+                        },
+                        {
+                            "id": "f61427ab04fc184d747b4ffebd381d7cfa27c5ae3b5016a7cd14ffa4f64de025",
+                            "text": "teams",
+                            "bbox": [
+                                1006.0,
+                                2212.0,
+                                1119.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "8eef5f6c0e2650b9526f74f7897b8ec22c3ba18c3e7447dfe6213c2142a11efb",
+                            "text": "to",
+                            "bbox": [
+                                1131.0,
+                                2212.0,
+                                1165.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "6e37cd8e90a5aaf0d1cd402c0c4f06235c7985abcb120be1dff07fd818e33ff6",
+                            "text": "refractor",
+                            "bbox": [
+                                1181.0,
+                                2208.0,
+                                1333.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "5a2a6228d5bd85f78d414e7748ac3efe7ac0f0142085adcd6e9d44b548651d50",
+                            "text": "an",
+                            "bbox": [
+                                1346.0,
+                                2217.0,
+                                1386.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "fed43b9954d38909de034fb175527acb656101b27d1df363b79f630dee0df5c2",
+                            "text": "open",
+                            "bbox": [
+                                1402.0,
+                                2217.0,
+                                1487.0,
+                                2249.0
+                            ]
+                        },
+                        {
+                            "id": "6bfa4d9d54deea6bd75ea75bd03116ac076365ed104bf9af3f8d82178e4f9e2f",
+                            "text": "source",
+                            "bbox": [
+                                1502.0,
+                                2218.0,
+                                1623.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "fd115f77f0e8072908b4336d0b0f1080265b55c9787da629ad81cc2d36ae895f",
+                            "text": "Python",
+                            "bbox": [
+                                1638.0,
+                                2209.0,
+                                1760.0,
+                                2249.0
+                            ]
+                        },
+                        {
+                            "id": "6922a4da36d444f06f81cfdedd3753ca980b6d8af6bd17bfb748fa8f1c390b12",
+                            "text": "Script",
+                            "bbox": [
+                                1775.0,
+                                2210.0,
+                                1876.0,
+                                2249.0
+                            ]
+                        },
+                        {
+                            "id": "5848f6dde4dee0e59ade61b8bef1f618a08c4fbd30b67706dd0f678de9314805",
+                            "text": "and",
+                            "bbox": [
+                                1891.0,
+                                2209.0,
+                                1954.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "1507e2806140806d7c0faf86cb251d2073a6c536dd6e91a8e94353381ca8ba30",
+                            "text": "web",
+                            "bbox": [
+                                1968.0,
+                                2209.0,
+                                2041.0,
+                                2240.0
+                            ]
+                        },
+                        {
+                            "id": "f988219a82a76ac4629e9b422dac0c22c68d93feb31efff0de80c28c250719fd",
+                            "text": "scrape",
+                            "bbox": [
+                                2055.0,
+                                2218.0,
+                                2175.0,
+                                2249.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "85687a86771bd13b51cca516f026be6f35af65f4a2c3b8dc2cd04d0d4fcb8a83",
+                    "text": "Growthsi Images.",
+                    "bbox": [
+                        378.0,
+                        2265.0,
+                        691.0,
+                        2305.0
+                    ],
+                    "words": [
+                        {
+                            "id": "9906076a7948e38d2d5994a74e9e4bb32e0f94e9bd2d6ccdfaf5315c46aeadfe",
+                            "text": "Growthsi",
+                            "bbox": [
+                                378.0,
+                                2265.0,
+                                536.0,
+                                2296.0
+                            ]
+                        },
+                        {
+                            "id": "969f6351590ff6f2ca23e03686252c2a167ca2aac945b0735027840925145684",
+                            "text": "Images.",
+                            "bbox": [
+                                553.0,
+                                2266.0,
+                                691.0,
+                                2305.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "35bb90a732f630080d8c0ca918547f71466fa59afbeeb2cab9a3e2b04a168010",
+                    "text": "e Improved the UI/UX of 23 clients’ websites via responsive front-end using JavaScript, HTML, and CSS.",
+                    "bbox": [
+                        304.0,
+                        2321.0,
+                        2212.0,
+                        2362.0
+                    ],
+                    "words": [
+                        {
+                            "id": "5087fcb383d6d5ee1084d27e0ac944f313597a435810f55a44eb9258017768b0",
+                            "text": "e",
+                            "bbox": [
+                                304.0,
+                                2332.0,
+                                322.0,
+                                2350.0
+                            ]
+                        },
+                        {
+                            "id": "9345a1c7052d014ff04cab712851f314a5ac9b45aafaa023feee347f34e4a349",
+                            "text": "Improved",
+                            "bbox": [
+                                379.0,
+                                2322.0,
+                                544.0,
+                                2362.0
+                            ]
+                        },
+                        {
+                            "id": "153666da0e2b3a657ea2e0f28893838a7cf853d7aff1787cf6e6d84c730de99a",
+                            "text": "the",
+                            "bbox": [
+                                557.0,
+                                2322.0,
+                                614.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "2d6d81926cea3d3dd595f3f7fff59ed436f80cf15b707c2966c73bd5fcc64d74",
+                            "text": "UI/UX",
+                            "bbox": [
+                                628.0,
+                                2323.0,
+                                732.0,
+                                2356.0
+                            ]
+                        },
+                        {
+                            "id": "b267ddaa0aa98f8ab821ac56459df0a6551617462cb045feb044830d9161d3a0",
+                            "text": "of",
+                            "bbox": [
+                                745.0,
+                                2321.0,
+                                780.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "9528b9732691b5ed19d4a1ce860e5d926bf509417b7aaec6158df000256f3f32",
+                            "text": "23",
+                            "bbox": [
+                                792.0,
+                                2323.0,
+                                834.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "9ba887e0a86e9fd958d2d4e0732eabec3749c87e895a373ead0c33b99c4d4ab1",
+                            "text": "clients’",
+                            "bbox": [
+                                849.0,
+                                2322.0,
+                                970.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "02f9ebd1a3536bea9c33229d17f094eaad39a484511efeb0706b66b60de5bc3c",
+                            "text": "websites",
+                            "bbox": [
+                                984.0,
+                                2322.0,
+                                1143.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "e05fe04678d732f724544d0d5ee5d35f3e8cf2de957ef2fb0fc14ab35afdff66",
+                            "text": "via",
+                            "bbox": [
+                                1156.0,
+                                2323.0,
+                                1204.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "9f3175bde30576ad1bf26bf2b690a186a1e537a834804bc5f410f91cdab672d9",
+                            "text": "responsive",
+                            "bbox": [
+                                1220.0,
+                                2323.0,
+                                1413.0,
+                                2362.0
+                            ]
+                        },
+                        {
+                            "id": "5aae4105053477193ce3ccaa30a507f73e95b8aade12f6112140deb7e273dabf",
+                            "text": "front-end",
+                            "bbox": [
+                                1426.0,
+                                2321.0,
+                                1588.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "0d35997a58cb014f41e6e8467be6b7c8300ecc8ea20fe7f7b667bfd47196cda7",
+                            "text": "using",
+                            "bbox": [
+                                1604.0,
+                                2323.0,
+                                1697.0,
+                                2362.0
+                            ]
+                        },
+                        {
+                            "id": "ff92de2fbe265ab99e6cb4d07df4f18122692ed7304d55bd1c31a43b675f60e0",
+                            "text": "JavaScript,",
+                            "bbox": [
+                                1712.0,
+                                2323.0,
+                                1909.0,
+                                2362.0
+                            ]
+                        },
+                        {
+                            "id": "480dcd0b3bf9da7cff55425da2172280e9427427cbc6f4671f3d69be6c482ae0",
+                            "text": "HTML,",
+                            "bbox": [
+                                1926.0,
+                                2323.0,
+                                2039.0,
+                                2358.0
+                            ]
+                        },
+                        {
+                            "id": "35cd087cc29a3fd51ff37303d72d413fc3c5930e8a0539311608cbb8efb513ab",
+                            "text": "and",
+                            "bbox": [
+                                2053.0,
+                                2322.0,
+                                2117.0,
+                                2353.0
+                            ]
+                        },
+                        {
+                            "id": "be9fb2183ea460c007613cc3b1b902c4c6b2791bf98c2fb27c3b742d5d582727",
+                            "text": "CSS.",
+                            "bbox": [
+                                2132.0,
+                                2323.0,
+                                2212.0,
+                                2353.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "9237f8174cc2cec8e4b612e5aeea3df1c2c1a393b5f61ba4915a0c6bab449ec3",
+                    "text": "Systems Engineer, ABC Company, London, United Kingdom 11/2008 — 12/2009",
+                    "bbox": [
+                        226.0,
+                        2419.0,
+                        2318.0,
+                        2463.0
+                    ],
+                    "words": [
+                        {
+                            "id": "f0a5c63e2148597f70031db867d6ee629e53d1dd10a1ca6f566440026184eda0",
+                            "text": "Systems",
+                            "bbox": [
+                                226.0,
+                                2420.0,
+                                402.0,
+                                2463.0
+                            ]
+                        },
+                        {
+                            "id": "fd4c8bd59c34e9fc27e819191bbaf34e4e6f10940f243c89f85169eb45d5db66",
+                            "text": "Engineer,",
+                            "bbox": [
+                                418.0,
+                                2419.0,
+                                601.0,
+                                2463.0
+                            ]
+                        },
+                        {
+                            "id": "475f5f4b29204d8710d7e56a48a255425bd5c08ba82f53d74c0476df60f5306c",
+                            "text": "ABC",
+                            "bbox": [
+                                616.0,
+                                2420.0,
+                                698.0,
+                                2453.0
+                            ]
+                        },
+                        {
+                            "id": "2673ad3a2c618ee9837fdf433998c8091b75fa12adb1e05c412da282cd5c9d12",
+                            "text": "Company,",
+                            "bbox": [
+                                715.0,
+                                2420.0,
+                                909.0,
+                                2463.0
+                            ]
+                        },
+                        {
+                            "id": "edbf54077f6972aaff4f9170b796f48096ef73b25d68c417137c4b28dd14b39a",
+                            "text": "London,",
+                            "bbox": [
+                                927.0,
+                                2419.0,
+                                1080.0,
+                                2459.0
+                            ]
+                        },
+                        {
+                            "id": "a049055fb6bed48baedd559601e0d63b9dbad03b95a451d5ce6228b47b8c301e",
+                            "text": "United",
+                            "bbox": [
+                                1098.0,
+                                2419.0,
+                                1220.0,
+                                2453.0
+                            ]
+                        },
+                        {
+                            "id": "7dad7ee918635878b8143be0ff12a40c21a97213ae37c4f237c6ef88af35b08d",
+                            "text": "Kingdom",
+                            "bbox": [
+                                1238.0,
+                                2419.0,
+                                1412.0,
+                                2463.0
+                            ]
+                        },
+                        {
+                            "id": "31e17b9265593a343edf8a9ee87bd7609deaa2503926616f4daf8df208a99d85",
+                            "text": "11/2008",
+                            "bbox": [
+                                1927.0,
+                                2420.0,
+                                2094.0,
+                                2456.0
+                            ]
+                        },
+                        {
+                            "id": "76a1c64ed86e912d32b30e135133dc2ad102dd171f0a267e6ef19b7f7e201042",
+                            "text": "—",
+                            "bbox": [
+                                2110.0,
+                                2435.0,
+                                2133.0,
+                                2438.0
+                            ]
+                        },
+                        {
+                            "id": "ab11fce6cb6de5ccc9b2768c58eec491bdb67bdf88b350409015c54e7d53a104",
+                            "text": "12/2009",
+                            "bbox": [
+                                2153.0,
+                                2420.0,
+                                2318.0,
+                                2456.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "756f22cc410e5a72e062af67bf6ecf786778121e91788d6d37c984da6e6f5673",
+                    "text": "Cryptography Tutor, XYZ Company, London, United Kingdom 09/2005 — 10/2008",
+                    "bbox": [
+                        227.0,
+                        2482.0,
+                        2320.0,
+                        2526.0
+                    ],
+                    "words": [
+                        {
+                            "id": "33a6b2f0d6db00a0ec7b1dee05b6245ab1ed7a46b5d8d7764c9595fe76b8d679",
+                            "text": "Cryptography",
+                            "bbox": [
+                                227.0,
+                                2482.0,
+                                503.0,
+                                2526.0
+                            ]
+                        },
+                        {
+                            "id": "0a21b8aa17a293b549a08ad729c19d6cfa55c50cbefb1b87065452562636f86b",
+                            "text": "Tutor,",
+                            "bbox": [
+                                514.0,
+                                2483.0,
+                                628.0,
+                                2524.0
+                            ]
+                        },
+                        {
+                            "id": "6363481da0a9890e90e3a6d5709d87cf53b373eccf1c6d7b251f04825f842ad9",
+                            "text": "XYZ",
+                            "bbox": [
+                                645.0,
+                                2483.0,
+                                724.0,
+                                2516.0
+                            ]
+                        },
+                        {
+                            "id": "10a7b4f3a3e4de5fe7a3a65a427b74f5b5d8b440e079686917b5ffa1e39c5c84",
+                            "text": "Company,",
+                            "bbox": [
+                                740.0,
+                                2483.0,
+                                933.0,
+                                2526.0
+                            ]
+                        },
+                        {
+                            "id": "7526fddfd6e18d1e0e833f1707f87cc6bacc8acb8367836bcc3966004520e113",
+                            "text": "London,",
+                            "bbox": [
+                                951.0,
+                                2482.0,
+                                1104.0,
+                                2522.0
+                            ]
+                        },
+                        {
+                            "id": "fe7475c0fdb798e3512b43c8b71dfb4ce1a322deed9d3a5ab0ea527b05d48ac6",
+                            "text": "United",
+                            "bbox": [
+                                1122.0,
+                                2482.0,
+                                1244.0,
+                                2516.0
+                            ]
+                        },
+                        {
+                            "id": "1fc4303327ddc92f6857b7bf25cdf73c01f9ffef91a0cdda9262b45502f0018c",
+                            "text": "Kingdom",
+                            "bbox": [
+                                1263.0,
+                                2482.0,
+                                1436.0,
+                                2526.0
+                            ]
+                        },
+                        {
+                            "id": "cde18447c06175e7ca0632ceb06184f868fc78e6419c9666f8388ae6212919ab",
+                            "text": "09/2005",
+                            "bbox": [
+                                1926.0,
+                                2483.0,
+                                2094.0,
+                                2519.0
+                            ]
+                        },
+                        {
+                            "id": "7a6906d42a6d67226192deb1004f07a1c9a45db68d945be64918853ce8f2f250",
+                            "text": "—",
+                            "bbox": [
+                                2110.0,
+                                2498.0,
+                                2133.0,
+                                2501.0
+                            ]
+                        },
+                        {
+                            "id": "1d4f942b278a958ec7ad6231ac3feb04961e5c6a08aa4c738b1edfa8eea099cb",
+                            "text": "10/2008",
+                            "bbox": [
+                                2153.0,
+                                2483.0,
+                                2320.0,
+                                2519.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "66a728faf0847d24fc966a747dcf384248f47169d9259aeae96b2c1a43e8f74d",
+                    "text": "EDUCATION",
+                    "bbox": [
+                        229.0,
+                        2584.0,
+                        455.0,
+                        2611.0
+                    ],
+                    "words": [
+                        {
+                            "id": "d94baa9ab36c5307ed8d92bd928caa1fe23e9bbd99b4b60227c92c32435ed81f",
+                            "text": "EDUCATION",
+                            "bbox": [
+                                229.0,
+                                2584.0,
+                                455.0,
+                                2611.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "7fcf55ccc6a07afe68288475de26aead0f33520004f50181939cd1fd16fcaef5",
+                    "text": "Resume Worded University, New York, NY 06/2005",
+                    "bbox": [
+                        228.0,
+                        2713.0,
+                        2320.0,
+                        2757.0
+                    ],
+                    "words": [
+                        {
+                            "id": "9a215f8e86a117debcccc7b10792a506007390490b7c6e08e7f6cca0d84cb540",
+                            "text": "Resume",
+                            "bbox": [
+                                228.0,
+                                2714.0,
+                                391.0,
+                                2748.0
+                            ]
+                        },
+                        {
+                            "id": "76aafb9e7fd7c91d071022823d5d6a899e2865247785484c3cb5470af892eda0",
+                            "text": "Worded",
+                            "bbox": [
+                                405.0,
+                                2713.0,
+                                559.0,
+                                2747.0
+                            ]
+                        },
+                        {
+                            "id": "97ee2d74ed26247f6ba7391764bb012045651c66d66c694cc5a015b583b4dbb9",
+                            "text": "University,",
+                            "bbox": [
+                                575.0,
+                                2713.0,
+                                785.0,
+                                2757.0
+                            ]
+                        },
+                        {
+                            "id": "ee24a5b5a5e1b95bc0039a5338b0d2524e642222e8b14297e3ade96df8f6822f",
+                            "text": "New",
+                            "bbox": [
+                                803.0,
+                                2714.0,
+                                888.0,
+                                2748.0
+                            ]
+                        },
+                        {
+                            "id": "89737fd033b42402e56f63f7029012a41baebcac20e0e9c60209421d48fbbe7a",
+                            "text": "York,",
+                            "bbox": [
+                                902.0,
+                                2713.0,
+                                999.0,
+                                2753.0
+                            ]
+                        },
+                        {
+                            "id": "59fffa26c45421295e9f54345e3fd29d260c3fcd6374f9b4bcae4e5b0134c6dc",
+                            "text": "NY",
+                            "bbox": [
+                                1016.0,
+                                2714.0,
+                                1071.0,
+                                2747.0
+                            ]
+                        },
+                        {
+                            "id": "95c8078a734fc0af9a54dce27af8f5638eb4c4b5c754fed475c232ed05a42b71",
+                            "text": "06/2005",
+                            "bbox": [
+                                2152.0,
+                                2714.0,
+                                2320.0,
+                                2750.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "a5eda032a23a79d894a2327288c4cc76664a6bf5669e0d6b02609e28f1192160",
+                    "text": "Bachelor of Technology — Computer Science",
+                    "bbox": [
+                        229.0,
+                        2775.0,
+                        1119.0,
+                        2820.0
+                    ],
+                    "words": [
+                        {
+                            "id": "aed66bfbd197862793a92b4b8b49c6dfa4d21bcfa7e78ef25554d7c3f98a46e9",
+                            "text": "Bachelor",
+                            "bbox": [
+                                229.0,
+                                2776.0,
+                                401.0,
+                                2811.0
+                            ]
+                        },
+                        {
+                            "id": "4ee056d6eb876134f8d104c3ecd0d40d1953e8240287673fe0ed795933438c68",
+                            "text": "of",
+                            "bbox": [
+                                414.0,
+                                2775.0,
+                                454.0,
+                                2810.0
+                            ]
+                        },
+                        {
+                            "id": "b791f7dc002b05bc76c167b39184d3ffe7a8e2e11ac29bbed758993149c4c5a0",
+                            "text": "Technology",
+                            "bbox": [
+                                465.0,
+                                2776.0,
+                                694.0,
+                                2820.0
+                            ]
+                        },
+                        {
+                            "id": "2e01904dc3c8a67bbbb1b77151845666c8c1c5873dd99d83163d98646e638795",
+                            "text": "—",
+                            "bbox": [
+                                709.0,
+                                2793.0,
+                                739.0,
+                                2795.0
+                            ]
+                        },
+                        {
+                            "id": "c6617803e865d7c0860ec03b63512a886fa1a932ff20f02be625d7aad20b71f8",
+                            "text": "Computer",
+                            "bbox": [
+                                756.0,
+                                2777.0,
+                                952.0,
+                                2819.0
+                            ]
+                        },
+                        {
+                            "id": "fba03f0dede33cbb74c7aef9c27dec32f733227dd8be5e5c7a8750db8ee2963e",
+                            "text": "Science",
+                            "bbox": [
+                                966.0,
+                                2777.0,
+                                1119.0,
+                                2810.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "cfffa05cec7d71eb9812140feaed5d44dd93d504e10e79888742a87e67b64c2f",
+                    "text": "SKILLS",
+                    "bbox": [
+                        226.0,
+                        2893.0,
+                        353.0,
+                        2921.0
+                    ],
+                    "words": [
+                        {
+                            "id": "6ef62a714cce5262672a1b73643a3d75365c1a97492d1fe4451df7de5da721ca",
+                            "text": "SKILLS",
+                            "bbox": [
+                                226.0,
+                                2893.0,
+                                353.0,
+                                2921.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "79a9a6a18dece5da60ced1845c6bc7e5752aea1e70897dfd5c70360cd4d6f404",
+                    "text": "Web Development: Truffle Framework (Advanced), Geth (Experienced), Embark, Remix IDE, Solium.",
+                    "bbox": [
+                        226.0,
+                        3020.0,
+                        2010.0,
+                        3062.0
+                    ],
+                    "words": [
+                        {
+                            "id": "6c043783b2bdc918ce044f7afdf416e7455484e3c62bb40fdf7c22cfb0f05a22",
+                            "text": "Web",
+                            "bbox": [
+                                226.0,
+                                3021.0,
+                                305.0,
+                                3054.0
+                            ]
+                        },
+                        {
+                            "id": "acf1e764de767f33d8e27eceb87373e54dd7eb718df20622184fb2119f4c52b3",
+                            "text": "Development:",
+                            "bbox": [
+                                320.0,
+                                3022.0,
+                                570.0,
+                                3062.0
+                            ]
+                        },
+                        {
+                            "id": "8dcac465121af8e18f51cb866f0cd15b740f6b337e42a50e46dc91461bd2b7e4",
+                            "text": "Truffle",
+                            "bbox": [
+                                583.0,
+                                3021.0,
+                                697.0,
+                                3053.0
+                            ]
+                        },
+                        {
+                            "id": "7b5b2421646c86e0eecbe0a5d089d5d304530f6c9c16f3646e661f6512e5edd2",
+                            "text": "Framework",
+                            "bbox": [
+                                712.0,
+                                3022.0,
+                                914.0,
+                                3053.0
+                            ]
+                        },
+                        {
+                            "id": "7254dc8c27276260502ab697f75cfb3995b2541ac3423d6316f7df1476eeaa32",
+                            "text": "(Advanced),",
+                            "bbox": [
+                                927.0,
+                                3020.0,
+                                1137.0,
+                                3062.0
+                            ]
+                        },
+                        {
+                            "id": "b4c10c63f540710fba1579aa92193d3f701221a7d7e67d414373288a032e8c94",
+                            "text": "Geth",
+                            "bbox": [
+                                1152.0,
+                                3022.0,
+                                1233.0,
+                                3053.0
+                            ]
+                        },
+                        {
+                            "id": "43c328f15e2dedde284afbd73165d98b356ea8bf77197af68d917c2173587643",
+                            "text": "(Experienced),",
+                            "bbox": [
+                                1250.0,
+                                3020.0,
+                                1502.0,
+                                3062.0
+                            ]
+                        },
+                        {
+                            "id": "8161b6470b0276366ba40607c004f7a1f2139033a3d70238825dee631bb14249",
+                            "text": "Embark,",
+                            "bbox": [
+                                1518.0,
+                                3022.0,
+                                1660.0,
+                                3058.0
+                            ]
+                        },
+                        {
+                            "id": "120e94e734244c7d57f338b4363f4fff9c7af3e33d87b148bf3aaa30624cdf94",
+                            "text": "Remix",
+                            "bbox": [
+                                1675.0,
+                                3023.0,
+                                1786.0,
+                                3053.0
+                            ]
+                        },
+                        {
+                            "id": "a5d9d25170d92950bfa69e919c76f121bafbec3da3c322d9c52e5371e720a8c5",
+                            "text": "IDE,",
+                            "bbox": [
+                                1801.0,
+                                3023.0,
+                                1865.0,
+                                3058.0
+                            ]
+                        },
+                        {
+                            "id": "61205ea5a8b60b281af860db8a7898ba1561c2df0d02dd144ef484f70f53e664",
+                            "text": "Solium.",
+                            "bbox": [
+                                1879.0,
+                                3022.0,
+                                2010.0,
+                                3053.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ead854850b1b6e45a679b4774c0015a0635662db004fcc56c8b4b3f955ecab73",
+                    "text": "Programming Languages: C, Javascript, Java, Shell Scripting, Solidity, Golang, Python, C++, Vyper, Simplicity.",
+                    "bbox": [
+                        228.0,
+                        3078.0,
+                        2184.0,
+                        3118.0
+                    ],
+                    "words": [
+                        {
+                            "id": "8720927643d6222ad453e353f0d139ec93d65e832a8c2a1264e21ae2e574edfd",
+                            "text": "Programming",
+                            "bbox": [
+                                228.0,
+                                3078.0,
+                                478.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "71c06c7c5bce8f4deda456ff6520e198146d942c38596dbea7ac1f2b393636b1",
+                            "text": "Languages:",
+                            "bbox": [
+                                494.0,
+                                3079.0,
+                                703.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "6bb4a5bee8edf056fae824fd321bcac7a68beb45f56265097184357b586ab039",
+                            "text": "C,",
+                            "bbox": [
+                                717.0,
+                                3079.0,
+                                748.0,
+                                3114.0
+                            ]
+                        },
+                        {
+                            "id": "9fdf7b3e2b97f8d0f195e7afe1d881c65d9dc34dfe03ed9f3b2f54d003e73000",
+                            "text": "Javascript,",
+                            "bbox": [
+                                762.0,
+                                3079.0,
+                                956.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "a742ac4e7d0c4df444cc23b66fde101aeec321d39af2fd1e16ad1107a960b28c",
+                            "text": "Java,",
+                            "bbox": [
+                                969.0,
+                                3079.0,
+                                1061.0,
+                                3114.0
+                            ]
+                        },
+                        {
+                            "id": "369821f0d9c8245a94d543625a88fc3eb99f1a852ca2725637258215835fcf38",
+                            "text": "Shell",
+                            "bbox": [
+                                1075.0,
+                                3078.0,
+                                1157.0,
+                                3109.0
+                            ]
+                        },
+                        {
+                            "id": "71f1582cd20833f0906d8df893ef5857ee4b4a2d7778ff257157ea7b45161341",
+                            "text": "Scripting,",
+                            "bbox": [
+                                1173.0,
+                                3079.0,
+                                1338.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "6687873180882ac8aba9dcd7dfd3c55cee4eadfbe4399d1092468fded10eedd1",
+                            "text": "Solidity,",
+                            "bbox": [
+                                1352.0,
+                                3078.0,
+                                1486.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "8a0a63e1a1fcc90832598ea2a8cadd98d34987569db70b23e4cb831eb60cf77b",
+                            "text": "Golang,",
+                            "bbox": [
+                                1501.0,
+                                3078.0,
+                                1634.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "9c7f53a9c0731f9175e93d77207508ab67642504281d6f71f0542a7d54791378",
+                            "text": "Python,",
+                            "bbox": [
+                                1650.0,
+                                3078.0,
+                                1780.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "434cf5f642ab9275db6b368aad54fb3c17b22be7a947b3384da7e0d5c3e9b07a",
+                            "text": "C++,",
+                            "bbox": [
+                                1794.0,
+                                3079.0,
+                                1872.0,
+                                3114.0
+                            ]
+                        },
+                        {
+                            "id": "600b750a92350e49e595c3e376f3509b37c1bca51030887644b7208a7ac72847",
+                            "text": "Vyper,",
+                            "bbox": [
+                                1885.0,
+                                3079.0,
+                                1992.0,
+                                3118.0
+                            ]
+                        },
+                        {
+                            "id": "0c97d9c16b23c93889a79f0a10c81af21114e5a584d0b417dcb73dcc5a67c22a",
+                            "text": "Simplicity.",
+                            "bbox": [
+                                2006.0,
+                                3078.0,
+                                2184.0,
+                                3118.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "3eab56503c68f2a4f0e39763349b87875e8eaf436dfe60004e7f19591685f871",
+                    "text": "Hyperledger Development Tools: Avalon, Caliper, Cello, Explorer, Cactus, Aries, Quilt, Ursa, Grid.",
+                    "bbox": [
+                        228.0,
+                        3133.0,
+                        1940.0,
+                        3174.0
+                    ],
+                    "words": [
+                        {
+                            "id": "181b0e261bd5e96bc67869edcc534c63ea109e8156ebe38ab6280468c67dd9d2",
+                            "text": "Hyperledger",
+                            "bbox": [
+                                228.0,
+                                3133.0,
+                                455.0,
+                                3174.0
+                            ]
+                        },
+                        {
+                            "id": "a7e144011af6acda442e6deb63d6c29eae178efa989e8b66c6efbc7516a41d83",
+                            "text": "Development",
+                            "bbox": [
+                                468.0,
+                                3134.0,
+                                711.0,
+                                3174.0
+                            ]
+                        },
+                        {
+                            "id": "0c73f0be2b921afb0ee48c133ace4475919a168b62d35a964b6923ef01548293",
+                            "text": "Tools:",
+                            "bbox": [
+                                722.0,
+                                3134.0,
+                                829.0,
+                                3166.0
+                            ]
+                        },
+                        {
+                            "id": "fd1f7cb27b9413a1c84f8a4f0aac2d7f83b32baab8d50a264278d5ee3ba41592",
+                            "text": "Avalon,",
+                            "bbox": [
+                                843.0,
+                                3134.0,
+                                971.0,
+                                3170.0
+                            ]
+                        },
+                        {
+                            "id": "27a6bd7dede50e12258034b1e29b324cd4ad2cc4e8885dc9e1456f05c4bcc12c",
+                            "text": "Caliper,",
+                            "bbox": [
+                                985.0,
+                                3134.0,
+                                1113.0,
+                                3174.0
+                            ]
+                        },
+                        {
+                            "id": "1a291abc97c6ab296401bbd55da9a3114f095eb579e1eda03ebca11a9309c0d3",
+                            "text": "Cello,",
+                            "bbox": [
+                                1127.0,
+                                3134.0,
+                                1222.0,
+                                3170.0
+                            ]
+                        },
+                        {
+                            "id": "dde1fac1dadb5f3cab5448b54e2164f49282aca95e5a2ac490c8b055de165025",
+                            "text": "Explorer,",
+                            "bbox": [
+                                1238.0,
+                                3134.0,
+                                1386.0,
+                                3174.0
+                            ]
+                        },
+                        {
+                            "id": "17da8b27209eb7295362bd4fe953b2ca1525710c2ff86fca6208c5c1863eb816",
+                            "text": "Cactus,",
+                            "bbox": [
+                                1400.0,
+                                3135.0,
+                                1533.0,
+                                3170.0
+                            ]
+                        },
+                        {
+                            "id": "587e56018d3e9327780cfc090c44d8f8c0ea52d9a131fe0d4e3ff8a3873a8904",
+                            "text": "Aries,",
+                            "bbox": [
+                                1546.0,
+                                3135.0,
+                                1643.0,
+                                3170.0
+                            ]
+                        },
+                        {
+                            "id": "54fa50e628995002211c6b705b40199e8768dcbfeb0028dc0c547621f12a0ec1",
+                            "text": "Quilt,",
+                            "bbox": [
+                                1657.0,
+                                3134.0,
+                                1744.0,
+                                3170.0
+                            ]
+                        },
+                        {
+                            "id": "bdc49514bdb2ef140633d760b5fbc721fcb342a1ad987206af1c202762d86ff9",
+                            "text": "Ursa,",
+                            "bbox": [
+                                1759.0,
+                                3135.0,
+                                1847.0,
+                                3170.0
+                            ]
+                        },
+                        {
+                            "id": "49cd3be757f265aa7e7b07263e6f9d4e809588dce5cfe8eb1ff5011cc91552f8",
+                            "text": "Grid.",
+                            "bbox": [
+                                1862.0,
+                                3134.0,
+                                1940.0,
+                                3165.0
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "line_count": 41
+        }
+    ]
+}
