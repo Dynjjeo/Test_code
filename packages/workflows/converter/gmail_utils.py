@@ -10,7 +10,7 @@ from google.oauth2.credentials import Credentials  # noqa: E402
 from google_auth_oauthlib.flow import InstalledAppFlow  # noqa: E402
 from googleapiclient.discovery import build  # noqa: E402
 from simplegmail.query import construct_query
-
+from docling_core.types.doc import ImageRefMode, PictureItem, TableItem
 from libs.vectordb.src.vectordb.opensearch import os_service
 from workflows.config import get_config
 
@@ -176,9 +176,37 @@ def extract_content_with_docling(file_data, filename):
         try:
             converter = DocumentConverter()
             result = converter.convert(temp_path)
-            content = result.document.export_to_markdown()
-            logging.info(f"Đã trích xuất nội dung từ {filename}")
-            return content
+            doc_file = result.input.file.stem
+
+            for page_no, page in result.document.pages.items():
+                page_no = page.page_no
+                page_image_filename = f"{doc_file}_page_{page_no}.png"
+                with page_image_filename.open("wb") as img_f:
+                    img_f.write(page.image)
+            table_counter = 0
+            picture_counter = 0
+            for element, _level in result.document.iterate_elements():
+                if isinstance(element, TableItem):
+                    table_counter += 1
+                    # element.image_ref = ImageRefMode.FILE
+                    element_image_filename = f"{doc_file}_table_{table_counter}.png"
+                    with element_image_filename.open("wb") as img_f:
+                        element.get_image(result.document).save(img_f, format="PNG")
+                if isinstance(element, PictureItem):
+                    picture_counter += 1
+                    # element.image_ref = ImageRefMode.FILE
+                    element_image_filename = f"{doc_file}_picture_{picture_counter}.png"
+                    with element_image_filename.open("wb") as img_f:
+                        element.get_image(result.document).save(img_f, format="PNG")
+            # Lưu file md với embedding hình ảnh
+            md_filename = f"{doc_file}_with_img.md"
+            result.document.save_as_markdown(
+                md_filename, image_ref_mode=ImageRefMode.EMBEDDED            )
+            # Đọc nội dung md với hình ảnh được tham chiếu bến ngoài
+            md_filename = f"{doc_file}_with_img_refs.md"
+            result.document.save_as_markdown(
+                md_filename, image_ref_mode=ImageRefMode.REFERENCE         )
+            return result.document.export_to_markdown()
         finally:
             os.unlink(temp_path)  # Xóa file tạm
 
